@@ -1,0 +1,1 @@
+gcc mainTest.c -L/home/james/gsl/lib -I/home/james/gsl/include -lgsl -lgslcblas -lm

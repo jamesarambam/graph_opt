@@ -1,0 +1,741 @@
+<instance>
+<presentation name="EAV>WCSP" maxConstraintArity="2" maximize="false" format="XCSP 2.1_FRODO"/>
+
+<agents nbAgents ="49">
+  <agent name="agent0" />
+  <agent name="agent1" />
+  <agent name="agent2" />
+  <agent name="agent3" />
+  <agent name="agent4" />
+  <agent name="agent5" />
+  <agent name="agent6" />
+  <agent name="agent7" />
+  <agent name="agent8" />
+  <agent name="agent9" />
+  <agent name="agent10" />
+  <agent name="agent11" />
+  <agent name="agent12" />
+  <agent name="agent13" />
+  <agent name="agent14" />
+  <agent name="agent15" />
+  <agent name="agent16" />
+  <agent name="agent17" />
+  <agent name="agent18" />
+  <agent name="agent19" />
+  <agent name="agent20" />
+  <agent name="agent21" />
+  <agent name="agent22" />
+  <agent name="agent23" />
+  <agent name="agent24" />
+  <agent name="agent25" />
+  <agent name="agent26" />
+  <agent name="agent27" />
+  <agent name="agent28" />
+  <agent name="agent29" />
+  <agent name="agent30" />
+  <agent name="agent31" />
+  <agent name="agent32" />
+  <agent name="agent33" />
+  <agent name="agent34" />
+  <agent name="agent35" />
+  <agent name="agent36" />
+  <agent name="agent37" />
+  <agent name="agent38" />
+  <agent name="agent39" />
+  <agent name="agent40" />
+  <agent name="agent41" />
+  <agent name="agent42" />
+  <agent name="agent43" />
+  <agent name="agent44" />
+  <agent name="agent45" />
+  <agent name="agent46" />
+  <agent name="agent47" />
+  <agent name="agent48" />
+</agents>
+
+<domains nbDomains="1">
+  <domain name="d4">0..3</domain>
+</domains>
+
+<variables nbVariables="49">
+  <variable name="v0" domain="d4" agent="agent0" />
+  <variable name="v1" domain="d4" agent="agent1" />
+  <variable name="v2" domain="d4" agent="agent2" />
+  <variable name="v3" domain="d4" agent="agent3" />
+  <variable name="v4" domain="d4" agent="agent4" />
+  <variable name="v5" domain="d4" agent="agent5" />
+  <variable name="v6" domain="d4" agent="agent6" />
+  <variable name="v7" domain="d4" agent="agent7" />
+  <variable name="v8" domain="d4" agent="agent8" />
+  <variable name="v9" domain="d4" agent="agent9" />
+  <variable name="v10" domain="d4" agent="agent10" />
+  <variable name="v11" domain="d4" agent="agent11" />
+  <variable name="v12" domain="d4" agent="agent12" />
+  <variable name="v13" domain="d4" agent="agent13" />
+  <variable name="v14" domain="d4" agent="agent14" />
+  <variable name="v15" domain="d4" agent="agent15" />
+  <variable name="v16" domain="d4" agent="agent16" />
+  <variable name="v17" domain="d4" agent="agent17" />
+  <variable name="v18" domain="d4" agent="agent18" />
+  <variable name="v19" domain="d4" agent="agent19" />
+  <variable name="v20" domain="d4" agent="agent20" />
+  <variable name="v21" domain="d4" agent="agent21" />
+  <variable name="v22" domain="d4" agent="agent22" />
+  <variable name="v23" domain="d4" agent="agent23" />
+  <variable name="v24" domain="d4" agent="agent24" />
+  <variable name="v25" domain="d4" agent="agent25" />
+  <variable name="v26" domain="d4" agent="agent26" />
+  <variable name="v27" domain="d4" agent="agent27" />
+  <variable name="v28" domain="d4" agent="agent28" />
+  <variable name="v29" domain="d4" agent="agent29" />
+  <variable name="v30" domain="d4" agent="agent30" />
+  <variable name="v31" domain="d4" agent="agent31" />
+  <variable name="v32" domain="d4" agent="agent32" />
+  <variable name="v33" domain="d4" agent="agent33" />
+  <variable name="v34" domain="d4" agent="agent34" />
+  <variable name="v35" domain="d4" agent="agent35" />
+  <variable name="v36" domain="d4" agent="agent36" />
+  <variable name="v37" domain="d4" agent="agent37" />
+  <variable name="v38" domain="d4" agent="agent38" />
+  <variable name="v39" domain="d4" agent="agent39" />
+  <variable name="v40" domain="d4" agent="agent40" />
+  <variable name="v41" domain="d4" agent="agent41" />
+  <variable name="v42" domain="d4" agent="agent42" />
+  <variable name="v43" domain="d4" agent="agent43" />
+  <variable name="v44" domain="d4" agent="agent44" />
+  <variable name="v45" domain="d4" agent="agent45" />
+  <variable name="v46" domain="d4" agent="agent46" />
+  <variable name="v47" domain="d4" agent="agent47" />
+  <variable name="v48" domain="d4" agent="agent48" />
+</variables>
+
+<relations nbRelations="156">
+  <relation name="0_8" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    14 : 3 1 | 112 : 3 0 | 10000 : 3 3 | 22 : 3 2 | 115 : 2 0 | 17 : 2 1 | 10000 : 2 2 | 19 : 2 3 | 16 : 1 3 | 22 : 1 2 | 10000 : 1 1 | 112 : 1 0 | 110 : 0 2 | 104 : 0 3 | 200 : 0 0 | 102 : 0 1 
+  </relation>
+  <relation name="0_1" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    23 : 3 1 | 112 : 3 0 | 10000 : 3 3 | 31 : 3 2 | 115 : 2 0 | 26 : 2 1 | 10000 : 2 2 | 39 : 2 3 | 36 : 1 3 | 31 : 1 2 | 10000 : 1 1 | 112 : 1 0 | 119 : 0 2 | 124 : 0 3 | 200 : 0 0 | 111 : 0 1 
+  </relation>
+  <relation name="0_7" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    35 : 3 1 | 112 : 3 0 | 10000 : 3 3 | 27 : 3 2 | 115 : 2 0 | 38 : 2 1 | 10000 : 2 2 | 38 : 2 3 | 35 : 1 3 | 27 : 1 2 | 10000 : 1 1 | 112 : 1 0 | 115 : 0 2 | 123 : 0 3 | 200 : 0 0 | 123 : 0 1 
+  </relation>
+  <relation name="1_8" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    26 : 3 1 | 124 : 3 0 | 10000 : 3 3 | 34 : 3 2 | 119 : 2 0 | 21 : 2 1 | 10000 : 2 2 | 23 : 2 3 | 15 : 1 3 | 21 : 1 2 | 10000 : 1 1 | 111 : 1 0 | 110 : 0 2 | 104 : 0 3 | 200 : 0 0 | 102 : 0 1 
+  </relation>
+  <relation name="1_2" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    35 : 3 1 | 124 : 3 0 | 10000 : 3 3 | 45 : 3 2 | 119 : 2 0 | 30 : 2 1 | 10000 : 2 2 | 41 : 2 3 | 33 : 1 3 | 32 : 1 2 | 10000 : 1 1 | 111 : 1 0 | 121 : 0 2 | 122 : 0 3 | 200 : 0 0 | 111 : 0 1 
+  </relation>
+  <relation name="1_9" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    24 : 3 1 | 124 : 3 0 | 10000 : 3 3 | 40 : 3 2 | 119 : 2 0 | 19 : 2 1 | 10000 : 2 2 | 33 : 2 3 | 25 : 1 3 | 27 : 1 2 | 10000 : 1 1 | 111 : 1 0 | 116 : 0 2 | 114 : 0 3 | 200 : 0 0 | 100 : 0 1 
+  </relation>
+  <relation name="1_7" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    47 : 3 1 | 124 : 3 0 | 10000 : 3 3 | 39 : 3 2 | 119 : 2 0 | 42 : 2 1 | 10000 : 2 2 | 42 : 2 3 | 34 : 1 3 | 26 : 1 2 | 10000 : 1 1 | 111 : 1 0 | 115 : 0 2 | 123 : 0 3 | 200 : 0 0 | 123 : 0 1 
+  </relation>
+  <relation name="2_8" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    24 : 3 1 | 122 : 3 0 | 10000 : 3 3 | 32 : 3 2 | 121 : 2 0 | 23 : 2 1 | 10000 : 2 2 | 25 : 2 3 | 15 : 1 3 | 21 : 1 2 | 10000 : 1 1 | 111 : 1 0 | 110 : 0 2 | 104 : 0 3 | 200 : 0 0 | 102 : 0 1 
+  </relation>
+  <relation name="2_10" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    46 : 3 1 | 122 : 3 0 | 10000 : 3 3 | 27 : 3 2 | 121 : 2 0 | 45 : 2 1 | 10000 : 2 2 | 27 : 2 3 | 17 : 1 3 | 16 : 1 2 | 10000 : 1 1 | 111 : 1 0 | 105 : 0 2 | 106 : 0 3 | 200 : 0 0 | 124 : 0 1 
+  </relation>
+  <relation name="2_3" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    31 : 3 1 | 122 : 3 0 | 10000 : 3 3 | 31 : 3 2 | 121 : 2 0 | 30 : 2 1 | 10000 : 2 2 | 31 : 2 3 | 21 : 1 3 | 20 : 1 2 | 10000 : 1 1 | 111 : 1 0 | 109 : 0 2 | 110 : 0 3 | 200 : 0 0 | 109 : 0 1 
+  </relation>
+  <relation name="2_9" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    22 : 3 1 | 122 : 3 0 | 10000 : 3 3 | 38 : 3 2 | 121 : 2 0 | 21 : 2 1 | 10000 : 2 2 | 35 : 2 3 | 25 : 1 3 | 27 : 1 2 | 10000 : 1 1 | 111 : 1 0 | 116 : 0 2 | 114 : 0 3 | 200 : 0 0 | 100 : 0 1 
+  </relation>
+  <relation name="3_9" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    10 : 3 1 | 110 : 3 0 | 10000 : 3 3 | 26 : 3 2 | 109 : 2 0 | 9 : 2 1 | 10000 : 2 2 | 23 : 2 3 | 23 : 1 3 | 25 : 1 2 | 10000 : 1 1 | 109 : 1 0 | 116 : 0 2 | 114 : 0 3 | 200 : 0 0 | 100 : 0 1 
+  </relation>
+  <relation name="3_11" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    23 : 3 1 | 110 : 3 0 | 10000 : 3 3 | 29 : 3 2 | 109 : 2 0 | 22 : 2 1 | 10000 : 2 2 | 11 : 2 3 | 11 : 1 3 | 28 : 1 2 | 10000 : 1 1 | 109 : 1 0 | 119 : 0 2 | 102 : 0 3 | 200 : 0 0 | 113 : 0 1 
+  </relation>
+  <relation name="3_4" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    28 : 3 1 | 110 : 3 0 | 10000 : 3 3 | 14 : 3 2 | 109 : 2 0 | 27 : 2 1 | 10000 : 2 2 | 30 : 2 3 | 30 : 1 3 | 13 : 1 2 | 10000 : 1 1 | 109 : 1 0 | 104 : 0 2 | 121 : 0 3 | 200 : 0 0 | 118 : 0 1 
+  </relation>
+  <relation name="3_10" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    34 : 3 1 | 110 : 3 0 | 10000 : 3 3 | 15 : 3 2 | 109 : 2 0 | 33 : 2 1 | 10000 : 2 2 | 15 : 2 3 | 15 : 1 3 | 14 : 1 2 | 10000 : 1 1 | 109 : 1 0 | 105 : 0 2 | 106 : 0 3 | 200 : 0 0 | 124 : 0 1 
+  </relation>
+  <relation name="4_11" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    34 : 3 1 | 121 : 3 0 | 10000 : 3 3 | 40 : 3 2 | 104 : 2 0 | 17 : 2 1 | 10000 : 2 2 | 6 : 2 3 | 20 : 1 3 | 37 : 1 2 | 10000 : 1 1 | 118 : 1 0 | 119 : 0 2 | 102 : 0 3 | 200 : 0 0 | 113 : 0 1 
+  </relation>
+  <relation name="4_10" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    45 : 3 1 | 121 : 3 0 | 10000 : 3 3 | 26 : 3 2 | 104 : 2 0 | 28 : 2 1 | 10000 : 2 2 | 10 : 2 3 | 24 : 1 3 | 23 : 1 2 | 10000 : 1 1 | 118 : 1 0 | 105 : 0 2 | 106 : 0 3 | 200 : 0 0 | 124 : 0 1 
+  </relation>
+  <relation name="4_12" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    33 : 3 1 | 121 : 3 0 | 10000 : 3 3 | 26 : 3 2 | 104 : 2 0 | 16 : 2 1 | 10000 : 2 2 | 27 : 2 3 | 41 : 1 3 | 23 : 1 2 | 10000 : 1 1 | 118 : 1 0 | 105 : 0 2 | 123 : 0 3 | 200 : 0 0 | 112 : 0 1 
+  </relation>
+  <relation name="4_5" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    28 : 3 1 | 121 : 3 0 | 10000 : 3 3 | 43 : 3 2 | 104 : 2 0 | 11 : 2 1 | 10000 : 2 2 | 5 : 2 3 | 19 : 1 3 | 40 : 1 2 | 10000 : 1 1 | 118 : 1 0 | 122 : 0 2 | 101 : 0 3 | 200 : 0 0 | 107 : 0 1 
+  </relation>
+  <relation name="5_12" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    13 : 3 1 | 101 : 3 0 | 10000 : 3 3 | 6 : 3 2 | 122 : 2 0 | 34 : 2 1 | 10000 : 2 2 | 45 : 2 3 | 30 : 1 3 | 12 : 1 2 | 10000 : 1 1 | 107 : 1 0 | 105 : 0 2 | 123 : 0 3 | 200 : 0 0 | 112 : 0 1 
+  </relation>
+  <relation name="5_11" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    14 : 3 1 | 101 : 3 0 | 10000 : 3 3 | 20 : 3 2 | 122 : 2 0 | 35 : 2 1 | 10000 : 2 2 | 24 : 2 3 | 9 : 1 3 | 26 : 1 2 | 10000 : 1 1 | 107 : 1 0 | 119 : 0 2 | 102 : 0 3 | 200 : 0 0 | 113 : 0 1 
+  </relation>
+  <relation name="5_13" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    12 : 3 1 | 101 : 3 0 | 10000 : 3 3 | 17 : 3 2 | 122 : 2 0 | 33 : 2 1 | 10000 : 2 2 | 31 : 2 3 | 16 : 1 3 | 23 : 1 2 | 10000 : 1 1 | 107 : 1 0 | 116 : 0 2 | 109 : 0 3 | 200 : 0 0 | 111 : 0 1 
+  </relation>
+  <relation name="5_6" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    18 : 3 1 | 101 : 3 0 | 10000 : 3 3 | 2 : 3 2 | 122 : 2 0 | 39 : 2 1 | 10000 : 2 2 | 27 : 2 3 | 12 : 1 3 | 8 : 1 2 | 10000 : 1 1 | 107 : 1 0 | 101 : 0 2 | 105 : 0 3 | 200 : 0 0 | 117 : 0 1 
+  </relation>
+  <relation name="6_12" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    17 : 3 1 | 105 : 3 0 | 10000 : 3 3 | 10 : 3 2 | 101 : 2 0 | 13 : 2 1 | 10000 : 2 2 | 24 : 2 3 | 40 : 1 3 | 22 : 1 2 | 10000 : 1 1 | 117 : 1 0 | 105 : 0 2 | 123 : 0 3 | 200 : 0 0 | 112 : 0 1 
+  </relation>
+  <relation name="6_13" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    16 : 3 1 | 105 : 3 0 | 10000 : 3 3 | 21 : 3 2 | 101 : 2 0 | 12 : 2 1 | 10000 : 2 2 | 10 : 2 3 | 26 : 1 3 | 33 : 1 2 | 10000 : 1 1 | 117 : 1 0 | 116 : 0 2 | 109 : 0 3 | 200 : 0 0 | 111 : 0 1 
+  </relation>
+  <relation name="7_14" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    46 : 3 1 | 123 : 3 0 | 10000 : 3 3 | 32 : 3 2 | 115 : 2 0 | 38 : 2 1 | 10000 : 2 2 | 29 : 2 3 | 37 : 1 3 | 32 : 1 2 | 10000 : 1 1 | 123 : 1 0 | 109 : 0 2 | 114 : 0 3 | 200 : 0 0 | 123 : 0 1 
+  </relation>
+  <relation name="7_8" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    25 : 3 1 | 123 : 3 0 | 10000 : 3 3 | 33 : 3 2 | 115 : 2 0 | 17 : 2 1 | 10000 : 2 2 | 19 : 2 3 | 27 : 1 3 | 33 : 1 2 | 10000 : 1 1 | 123 : 1 0 | 110 : 0 2 | 104 : 0 3 | 200 : 0 0 | 102 : 0 1 
+  </relation>
+  <relation name="7_15" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    42 : 3 1 | 123 : 3 0 | 10000 : 3 3 | 41 : 3 2 | 115 : 2 0 | 34 : 2 1 | 10000 : 2 2 | 28 : 2 3 | 36 : 1 3 | 41 : 1 2 | 10000 : 1 1 | 123 : 1 0 | 118 : 0 2 | 113 : 0 3 | 200 : 0 0 | 119 : 0 1 
+  </relation>
+  <relation name="8_9" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    4 : 3 1 | 104 : 3 0 | 10000 : 3 3 | 20 : 3 2 | 110 : 2 0 | 10 : 2 1 | 10000 : 2 2 | 24 : 2 3 | 16 : 1 3 | 18 : 1 2 | 10000 : 1 1 | 102 : 1 0 | 116 : 0 2 | 114 : 0 3 | 200 : 0 0 | 100 : 0 1 
+  </relation>
+  <relation name="8_14" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    27 : 3 1 | 104 : 3 0 | 10000 : 3 3 | 13 : 3 2 | 110 : 2 0 | 33 : 2 1 | 10000 : 2 2 | 24 : 2 3 | 16 : 1 3 | 11 : 1 2 | 10000 : 1 1 | 102 : 1 0 | 109 : 0 2 | 114 : 0 3 | 200 : 0 0 | 123 : 0 1 
+  </relation>
+  <relation name="8_15" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    23 : 3 1 | 104 : 3 0 | 10000 : 3 3 | 22 : 3 2 | 110 : 2 0 | 29 : 2 1 | 10000 : 2 2 | 23 : 2 3 | 15 : 1 3 | 20 : 1 2 | 10000 : 1 1 | 102 : 1 0 | 118 : 0 2 | 113 : 0 3 | 200 : 0 0 | 119 : 0 1 
+  </relation>
+  <relation name="8_16" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    24 : 3 1 | 104 : 3 0 | 10000 : 3 3 | 15 : 3 2 | 110 : 2 0 | 30 : 2 1 | 10000 : 2 2 | 26 : 2 3 | 18 : 1 3 | 13 : 1 2 | 10000 : 1 1 | 102 : 1 0 | 111 : 0 2 | 116 : 0 3 | 200 : 0 0 | 120 : 0 1 
+  </relation>
+  <relation name="9_10" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    38 : 3 1 | 114 : 3 0 | 10000 : 3 3 | 19 : 3 2 | 116 : 2 0 | 40 : 2 1 | 10000 : 2 2 | 22 : 2 3 | 6 : 1 3 | 5 : 1 2 | 10000 : 1 1 | 100 : 1 0 | 105 : 0 2 | 106 : 0 3 | 200 : 0 0 | 124 : 0 1 
+  </relation>
+  <relation name="9_15" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    33 : 3 1 | 114 : 3 0 | 10000 : 3 3 | 32 : 3 2 | 116 : 2 0 | 35 : 2 1 | 10000 : 2 2 | 29 : 2 3 | 13 : 1 3 | 18 : 1 2 | 10000 : 1 1 | 100 : 1 0 | 118 : 0 2 | 113 : 0 3 | 200 : 0 0 | 119 : 0 1 
+  </relation>
+  <relation name="9_16" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    34 : 3 1 | 114 : 3 0 | 10000 : 3 3 | 25 : 3 2 | 116 : 2 0 | 36 : 2 1 | 10000 : 2 2 | 32 : 2 3 | 16 : 1 3 | 11 : 1 2 | 10000 : 1 1 | 100 : 1 0 | 111 : 0 2 | 116 : 0 3 | 200 : 0 0 | 120 : 0 1 
+  </relation>
+  <relation name="9_17" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    16 : 3 1 | 114 : 3 0 | 10000 : 3 3 | 23 : 3 2 | 116 : 2 0 | 18 : 2 1 | 10000 : 2 2 | 25 : 2 3 | 9 : 1 3 | 9 : 1 2 | 10000 : 1 1 | 100 : 1 0 | 109 : 0 2 | 109 : 0 3 | 200 : 0 0 | 102 : 0 1 
+  </relation>
+  <relation name="10_11" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    19 : 3 1 | 106 : 3 0 | 10000 : 3 3 | 25 : 3 2 | 105 : 2 0 | 18 : 2 1 | 10000 : 2 2 | 7 : 2 3 | 26 : 1 3 | 43 : 1 2 | 10000 : 1 1 | 124 : 1 0 | 119 : 0 2 | 102 : 0 3 | 200 : 0 0 | 113 : 0 1 
+  </relation>
+  <relation name="10_16" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    26 : 3 1 | 106 : 3 0 | 10000 : 3 3 | 17 : 3 2 | 105 : 2 0 | 25 : 2 1 | 10000 : 2 2 | 21 : 2 3 | 40 : 1 3 | 35 : 1 2 | 10000 : 1 1 | 124 : 1 0 | 111 : 0 2 | 116 : 0 3 | 200 : 0 0 | 120 : 0 1 
+  </relation>
+  <relation name="10_17" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    8 : 3 1 | 106 : 3 0 | 10000 : 3 3 | 15 : 3 2 | 105 : 2 0 | 7 : 2 1 | 10000 : 2 2 | 14 : 2 3 | 33 : 1 3 | 33 : 1 2 | 10000 : 1 1 | 124 : 1 0 | 109 : 0 2 | 109 : 0 3 | 200 : 0 0 | 102 : 0 1 
+  </relation>
+  <relation name="10_18" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    8 : 3 1 | 106 : 3 0 | 10000 : 3 3 | 19 : 3 2 | 105 : 2 0 | 7 : 2 1 | 10000 : 2 2 | 24 : 2 3 | 43 : 1 3 | 37 : 1 2 | 10000 : 1 1 | 124 : 1 0 | 113 : 0 2 | 119 : 0 3 | 200 : 0 0 | 102 : 0 1 
+  </relation>
+  <relation name="11_12" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    14 : 3 1 | 102 : 3 0 | 10000 : 3 3 | 7 : 3 2 | 119 : 2 0 | 31 : 2 1 | 10000 : 2 2 | 42 : 2 3 | 36 : 1 3 | 18 : 1 2 | 10000 : 1 1 | 113 : 1 0 | 105 : 0 2 | 123 : 0 3 | 200 : 0 0 | 112 : 0 1 
+  </relation>
+  <relation name="11_17" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    4 : 3 1 | 102 : 3 0 | 10000 : 3 3 | 11 : 3 2 | 119 : 2 0 | 21 : 2 1 | 10000 : 2 2 | 28 : 2 3 | 22 : 1 3 | 22 : 1 2 | 10000 : 1 1 | 113 : 1 0 | 109 : 0 2 | 109 : 0 3 | 200 : 0 0 | 102 : 0 1 
+  </relation>
+  <relation name="11_18" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    4 : 3 1 | 102 : 3 0 | 10000 : 3 3 | 15 : 3 2 | 119 : 2 0 | 21 : 2 1 | 10000 : 2 2 | 38 : 2 3 | 32 : 1 3 | 26 : 1 2 | 10000 : 1 1 | 113 : 1 0 | 113 : 0 2 | 119 : 0 3 | 200 : 0 0 | 102 : 0 1 
+  </relation>
+  <relation name="11_19" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    9 : 3 1 | 102 : 3 0 | 10000 : 3 3 | 15 : 3 2 | 119 : 2 0 | 26 : 2 1 | 10000 : 2 2 | 31 : 2 3 | 25 : 1 3 | 26 : 1 2 | 10000 : 1 1 | 113 : 1 0 | 113 : 0 2 | 112 : 0 3 | 200 : 0 0 | 107 : 0 1 
+  </relation>
+  <relation name="12_13" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    34 : 3 1 | 123 : 3 0 | 10000 : 3 3 | 39 : 3 2 | 105 : 2 0 | 16 : 2 1 | 10000 : 2 2 | 14 : 2 3 | 21 : 1 3 | 28 : 1 2 | 10000 : 1 1 | 112 : 1 0 | 116 : 0 2 | 109 : 0 3 | 200 : 0 0 | 111 : 0 1 
+  </relation>
+  <relation name="12_18" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    25 : 3 1 | 123 : 3 0 | 10000 : 3 3 | 36 : 3 2 | 105 : 2 0 | 7 : 2 1 | 10000 : 2 2 | 24 : 2 3 | 31 : 1 3 | 25 : 1 2 | 10000 : 1 1 | 112 : 1 0 | 113 : 0 2 | 119 : 0 3 | 200 : 0 0 | 102 : 0 1 
+  </relation>
+  <relation name="12_19" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    30 : 3 1 | 123 : 3 0 | 10000 : 3 3 | 36 : 3 2 | 105 : 2 0 | 12 : 2 1 | 10000 : 2 2 | 17 : 2 3 | 24 : 1 3 | 25 : 1 2 | 10000 : 1 1 | 112 : 1 0 | 113 : 0 2 | 112 : 0 3 | 200 : 0 0 | 107 : 0 1 
+  </relation>
+  <relation name="12_20" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    46 : 3 1 | 123 : 3 0 | 10000 : 3 3 | 35 : 3 2 | 105 : 2 0 | 28 : 2 1 | 10000 : 2 2 | 25 : 2 3 | 32 : 1 3 | 24 : 1 2 | 10000 : 1 1 | 112 : 1 0 | 112 : 0 2 | 120 : 0 3 | 200 : 0 0 | 123 : 0 1 
+  </relation>
+  <relation name="13_20" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    32 : 3 1 | 109 : 3 0 | 10000 : 3 3 | 21 : 3 2 | 116 : 2 0 | 39 : 2 1 | 10000 : 2 2 | 36 : 2 3 | 31 : 1 3 | 23 : 1 2 | 10000 : 1 1 | 111 : 1 0 | 112 : 0 2 | 120 : 0 3 | 200 : 0 0 | 123 : 0 1 
+  </relation>
+  <relation name="13_19" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    16 : 3 1 | 109 : 3 0 | 10000 : 3 3 | 22 : 3 2 | 116 : 2 0 | 23 : 2 1 | 10000 : 2 2 | 28 : 2 3 | 23 : 1 3 | 24 : 1 2 | 10000 : 1 1 | 111 : 1 0 | 113 : 0 2 | 112 : 0 3 | 200 : 0 0 | 107 : 0 1 
+  </relation>
+  <relation name="14_15" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    33 : 3 1 | 114 : 3 0 | 10000 : 3 3 | 32 : 3 2 | 109 : 2 0 | 28 : 2 1 | 10000 : 2 2 | 22 : 2 3 | 36 : 1 3 | 41 : 1 2 | 10000 : 1 1 | 123 : 1 0 | 118 : 0 2 | 113 : 0 3 | 200 : 0 0 | 119 : 0 1 
+  </relation>
+  <relation name="14_21" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    20 : 3 1 | 114 : 3 0 | 10000 : 3 3 | 14 : 3 2 | 109 : 2 0 | 15 : 2 1 | 10000 : 2 2 | 23 : 2 3 | 37 : 1 3 | 23 : 1 2 | 10000 : 1 1 | 123 : 1 0 | 100 : 0 2 | 114 : 0 3 | 200 : 0 0 | 106 : 0 1 
+  </relation>
+  <relation name="14_22" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    25 : 3 1 | 114 : 3 0 | 10000 : 3 3 | 28 : 3 2 | 109 : 2 0 | 20 : 2 1 | 10000 : 2 2 | 30 : 2 3 | 44 : 1 3 | 37 : 1 2 | 10000 : 1 1 | 123 : 1 0 | 114 : 0 2 | 121 : 0 3 | 200 : 0 0 | 111 : 0 1 
+  </relation>
+  <relation name="15_16" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    33 : 3 1 | 113 : 3 0 | 10000 : 3 3 | 24 : 3 2 | 118 : 2 0 | 38 : 2 1 | 10000 : 2 2 | 34 : 2 3 | 35 : 1 3 | 30 : 1 2 | 10000 : 1 1 | 119 : 1 0 | 111 : 0 2 | 116 : 0 3 | 200 : 0 0 | 120 : 0 1 
+  </relation>
+  <relation name="15_21" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    19 : 3 1 | 113 : 3 0 | 10000 : 3 3 | 13 : 3 2 | 118 : 2 0 | 24 : 2 1 | 10000 : 2 2 | 32 : 2 3 | 33 : 1 3 | 19 : 1 2 | 10000 : 1 1 | 119 : 1 0 | 100 : 0 2 | 114 : 0 3 | 200 : 0 0 | 106 : 0 1 
+  </relation>
+  <relation name="15_22" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    24 : 3 1 | 113 : 3 0 | 10000 : 3 3 | 27 : 3 2 | 118 : 2 0 | 29 : 2 1 | 10000 : 2 2 | 39 : 2 3 | 40 : 1 3 | 33 : 1 2 | 10000 : 1 1 | 119 : 1 0 | 114 : 0 2 | 121 : 0 3 | 200 : 0 0 | 111 : 0 1 
+  </relation>
+  <relation name="15_23" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    24 : 3 1 | 113 : 3 0 | 10000 : 3 3 | 15 : 3 2 | 118 : 2 0 | 29 : 2 1 | 10000 : 2 2 | 30 : 2 3 | 31 : 1 3 | 21 : 1 2 | 10000 : 1 1 | 119 : 1 0 | 102 : 0 2 | 112 : 0 3 | 200 : 0 0 | 111 : 0 1 
+  </relation>
+  <relation name="16_17" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    18 : 3 1 | 116 : 3 0 | 10000 : 3 3 | 25 : 3 2 | 111 : 2 0 | 13 : 2 1 | 10000 : 2 2 | 20 : 2 3 | 29 : 1 3 | 29 : 1 2 | 10000 : 1 1 | 120 : 1 0 | 109 : 0 2 | 109 : 0 3 | 200 : 0 0 | 102 : 0 1 
+  </relation>
+  <relation name="16_22" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    27 : 3 1 | 116 : 3 0 | 10000 : 3 3 | 30 : 3 2 | 111 : 2 0 | 22 : 2 1 | 10000 : 2 2 | 32 : 2 3 | 41 : 1 3 | 34 : 1 2 | 10000 : 1 1 | 120 : 1 0 | 114 : 0 2 | 121 : 0 3 | 200 : 0 0 | 111 : 0 1 
+  </relation>
+  <relation name="16_23" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    27 : 3 1 | 116 : 3 0 | 10000 : 3 3 | 18 : 3 2 | 111 : 2 0 | 22 : 2 1 | 10000 : 2 2 | 23 : 2 3 | 32 : 1 3 | 22 : 1 2 | 10000 : 1 1 | 120 : 1 0 | 102 : 0 2 | 112 : 0 3 | 200 : 0 0 | 111 : 0 1 
+  </relation>
+  <relation name="16_24" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    39 : 3 1 | 116 : 3 0 | 10000 : 3 3 | 16 : 3 2 | 111 : 2 0 | 34 : 2 1 | 10000 : 2 2 | 32 : 2 3 | 41 : 1 3 | 20 : 1 2 | 10000 : 1 1 | 120 : 1 0 | 100 : 0 2 | 121 : 0 3 | 200 : 0 0 | 123 : 0 1 
+  </relation>
+  <relation name="17_18" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    11 : 3 1 | 109 : 3 0 | 10000 : 3 3 | 22 : 3 2 | 109 : 2 0 | 11 : 2 1 | 10000 : 2 2 | 28 : 2 3 | 21 : 1 3 | 15 : 1 2 | 10000 : 1 1 | 102 : 1 0 | 113 : 0 2 | 119 : 0 3 | 200 : 0 0 | 102 : 0 1 
+  </relation>
+  <relation name="17_23" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    20 : 3 1 | 109 : 3 0 | 10000 : 3 3 | 11 : 3 2 | 109 : 2 0 | 20 : 2 1 | 10000 : 2 2 | 21 : 2 3 | 14 : 1 3 | 4 : 1 2 | 10000 : 1 1 | 102 : 1 0 | 102 : 0 2 | 112 : 0 3 | 200 : 0 0 | 111 : 0 1 
+  </relation>
+  <relation name="17_24" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    32 : 3 1 | 109 : 3 0 | 10000 : 3 3 | 9 : 3 2 | 109 : 2 0 | 32 : 2 1 | 10000 : 2 2 | 30 : 2 3 | 23 : 1 3 | 2 : 1 2 | 10000 : 1 1 | 102 : 1 0 | 100 : 0 2 | 121 : 0 3 | 200 : 0 0 | 123 : 0 1 
+  </relation>
+  <relation name="17_25" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    21 : 3 1 | 109 : 3 0 | 10000 : 3 3 | 29 : 3 2 | 109 : 2 0 | 21 : 2 1 | 10000 : 2 2 | 26 : 2 3 | 19 : 1 3 | 22 : 1 2 | 10000 : 1 1 | 102 : 1 0 | 120 : 0 2 | 117 : 0 3 | 200 : 0 0 | 112 : 0 1 
+  </relation>
+  <relation name="18_19" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    26 : 3 1 | 119 : 3 0 | 10000 : 3 3 | 32 : 3 2 | 113 : 2 0 | 20 : 2 1 | 10000 : 2 2 | 25 : 2 3 | 14 : 1 3 | 15 : 1 2 | 10000 : 1 1 | 102 : 1 0 | 113 : 0 2 | 112 : 0 3 | 200 : 0 0 | 107 : 0 1 
+  </relation>
+  <relation name="18_24" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    42 : 3 1 | 119 : 3 0 | 10000 : 3 3 | 19 : 3 2 | 113 : 2 0 | 36 : 2 1 | 10000 : 2 2 | 34 : 2 3 | 23 : 1 3 | 2 : 1 2 | 10000 : 1 1 | 102 : 1 0 | 100 : 0 2 | 121 : 0 3 | 200 : 0 0 | 123 : 0 1 
+  </relation>
+  <relation name="18_25" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    31 : 3 1 | 119 : 3 0 | 10000 : 3 3 | 39 : 3 2 | 113 : 2 0 | 25 : 2 1 | 10000 : 2 2 | 30 : 2 3 | 19 : 1 3 | 22 : 1 2 | 10000 : 1 1 | 102 : 1 0 | 120 : 0 2 | 117 : 0 3 | 200 : 0 0 | 112 : 0 1 
+  </relation>
+  <relation name="18_26" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    21 : 3 1 | 119 : 3 0 | 10000 : 3 3 | 36 : 3 2 | 113 : 2 0 | 15 : 2 1 | 10000 : 2 2 | 16 : 2 3 | 5 : 1 3 | 19 : 1 2 | 10000 : 1 1 | 102 : 1 0 | 117 : 0 2 | 103 : 0 3 | 200 : 0 0 | 102 : 0 1 
+  </relation>
+  <relation name="19_20" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    35 : 3 1 | 112 : 3 0 | 10000 : 3 3 | 24 : 3 2 | 113 : 2 0 | 36 : 2 1 | 10000 : 2 2 | 33 : 2 3 | 27 : 1 3 | 19 : 1 2 | 10000 : 1 1 | 107 : 1 0 | 112 : 0 2 | 120 : 0 3 | 200 : 0 0 | 123 : 0 1 
+  </relation>
+  <relation name="19_25" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    24 : 3 1 | 112 : 3 0 | 10000 : 3 3 | 32 : 3 2 | 113 : 2 0 | 25 : 2 1 | 10000 : 2 2 | 30 : 2 3 | 24 : 1 3 | 27 : 1 2 | 10000 : 1 1 | 107 : 1 0 | 120 : 0 2 | 117 : 0 3 | 200 : 0 0 | 112 : 0 1 
+  </relation>
+  <relation name="19_26" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    14 : 3 1 | 112 : 3 0 | 10000 : 3 3 | 29 : 3 2 | 113 : 2 0 | 15 : 2 1 | 10000 : 2 2 | 16 : 2 3 | 10 : 1 3 | 24 : 1 2 | 10000 : 1 1 | 107 : 1 0 | 117 : 0 2 | 103 : 0 3 | 200 : 0 0 | 102 : 0 1 
+  </relation>
+  <relation name="19_27" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    33 : 3 1 | 112 : 3 0 | 10000 : 3 3 | 34 : 3 2 | 113 : 2 0 | 34 : 2 1 | 10000 : 2 2 | 27 : 2 3 | 21 : 1 3 | 29 : 1 2 | 10000 : 1 1 | 107 : 1 0 | 122 : 0 2 | 114 : 0 3 | 200 : 0 0 | 121 : 0 1 
+  </relation>
+  <relation name="20_27" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    41 : 3 1 | 120 : 3 0 | 10000 : 3 3 | 42 : 3 2 | 112 : 2 0 | 33 : 2 1 | 10000 : 2 2 | 26 : 2 3 | 37 : 1 3 | 45 : 1 2 | 10000 : 1 1 | 123 : 1 0 | 122 : 0 2 | 114 : 0 3 | 200 : 0 0 | 121 : 0 1 
+  </relation>
+  <relation name="20_26" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    22 : 3 1 | 120 : 3 0 | 10000 : 3 3 | 37 : 3 2 | 112 : 2 0 | 14 : 2 1 | 10000 : 2 2 | 15 : 2 3 | 26 : 1 3 | 40 : 1 2 | 10000 : 1 1 | 123 : 1 0 | 117 : 0 2 | 103 : 0 3 | 200 : 0 0 | 102 : 0 1 
+  </relation>
+  <relation name="21_29" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    15 : 3 1 | 114 : 3 0 | 10000 : 3 3 | 24 : 3 2 | 100 : 2 0 | 1 : 2 1 | 10000 : 2 2 | 15 : 2 3 | 21 : 1 3 | 16 : 1 2 | 10000 : 1 1 | 106 : 1 0 | 110 : 0 2 | 115 : 0 3 | 200 : 0 0 | 101 : 0 1 
+  </relation>
+  <relation name="21_28" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    19 : 3 1 | 114 : 3 0 | 10000 : 3 3 | 15 : 3 2 | 100 : 2 0 | 5 : 2 1 | 10000 : 2 2 | 2 : 2 3 | 8 : 1 3 | 7 : 1 2 | 10000 : 1 1 | 106 : 1 0 | 101 : 0 2 | 102 : 0 3 | 200 : 0 0 | 105 : 0 1 
+  </relation>
+  <relation name="21_22" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    25 : 3 1 | 114 : 3 0 | 10000 : 3 3 | 28 : 3 2 | 100 : 2 0 | 11 : 2 1 | 10000 : 2 2 | 21 : 2 3 | 27 : 1 3 | 20 : 1 2 | 10000 : 1 1 | 106 : 1 0 | 114 : 0 2 | 121 : 0 3 | 200 : 0 0 | 111 : 0 1 
+  </relation>
+  <relation name="22_23" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    32 : 3 1 | 121 : 3 0 | 10000 : 3 3 | 23 : 3 2 | 114 : 2 0 | 25 : 2 1 | 10000 : 2 2 | 26 : 2 3 | 23 : 1 3 | 13 : 1 2 | 10000 : 1 1 | 111 : 1 0 | 102 : 0 2 | 112 : 0 3 | 200 : 0 0 | 111 : 0 1 
+  </relation>
+  <relation name="22_28" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    26 : 3 1 | 121 : 3 0 | 10000 : 3 3 | 22 : 3 2 | 114 : 2 0 | 19 : 2 1 | 10000 : 2 2 | 16 : 2 3 | 13 : 1 3 | 12 : 1 2 | 10000 : 1 1 | 111 : 1 0 | 101 : 0 2 | 102 : 0 3 | 200 : 0 0 | 105 : 0 1 
+  </relation>
+  <relation name="22_29" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    22 : 3 1 | 121 : 3 0 | 10000 : 3 3 | 31 : 3 2 | 114 : 2 0 | 15 : 2 1 | 10000 : 2 2 | 29 : 2 3 | 26 : 1 3 | 21 : 1 2 | 10000 : 1 1 | 111 : 1 0 | 110 : 0 2 | 115 : 0 3 | 200 : 0 0 | 101 : 0 1 
+  </relation>
+  <relation name="22_30" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    35 : 3 1 | 121 : 3 0 | 10000 : 3 3 | 31 : 3 2 | 114 : 2 0 | 28 : 2 1 | 10000 : 2 2 | 19 : 2 3 | 16 : 1 3 | 21 : 1 2 | 10000 : 1 1 | 111 : 1 0 | 110 : 0 2 | 105 : 0 3 | 200 : 0 0 | 114 : 0 1 
+  </relation>
+  <relation name="23_24" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    35 : 3 1 | 112 : 3 0 | 10000 : 3 3 | 12 : 3 2 | 102 : 2 0 | 25 : 2 1 | 10000 : 2 2 | 23 : 2 3 | 32 : 1 3 | 11 : 1 2 | 10000 : 1 1 | 111 : 1 0 | 100 : 0 2 | 121 : 0 3 | 200 : 0 0 | 123 : 0 1 
+  </relation>
+  <relation name="23_29" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    13 : 3 1 | 112 : 3 0 | 10000 : 3 3 | 22 : 3 2 | 102 : 2 0 | 3 : 2 1 | 10000 : 2 2 | 17 : 2 3 | 26 : 1 3 | 21 : 1 2 | 10000 : 1 1 | 111 : 1 0 | 110 : 0 2 | 115 : 0 3 | 200 : 0 0 | 101 : 0 1 
+  </relation>
+  <relation name="23_30" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    26 : 3 1 | 112 : 3 0 | 10000 : 3 3 | 22 : 3 2 | 102 : 2 0 | 16 : 2 1 | 10000 : 2 2 | 7 : 2 3 | 16 : 1 3 | 21 : 1 2 | 10000 : 1 1 | 111 : 1 0 | 110 : 0 2 | 105 : 0 3 | 200 : 0 0 | 114 : 0 1 
+  </relation>
+  <relation name="23_31" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    23 : 3 1 | 112 : 3 0 | 10000 : 3 3 | 31 : 3 2 | 102 : 2 0 | 13 : 2 1 | 10000 : 2 2 | 9 : 2 3 | 18 : 1 3 | 30 : 1 2 | 10000 : 1 1 | 111 : 1 0 | 119 : 0 2 | 107 : 0 3 | 200 : 0 0 | 111 : 0 1 
+  </relation>
+  <relation name="24_32" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    21 : 3 1 | 121 : 3 0 | 10000 : 3 3 | 26 : 3 2 | 100 : 2 0 | 0 : 2 1 | 10000 : 2 2 | 24 : 2 3 | 47 : 1 3 | 28 : 1 2 | 10000 : 1 1 | 123 : 1 0 | 105 : 0 2 | 124 : 0 3 | 200 : 0 0 | 100 : 0 1 
+  </relation>
+  <relation name="24_25" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    33 : 3 1 | 121 : 3 0 | 10000 : 3 3 | 41 : 3 2 | 100 : 2 0 | 12 : 2 1 | 10000 : 2 2 | 17 : 2 3 | 40 : 1 3 | 43 : 1 2 | 10000 : 1 1 | 123 : 1 0 | 120 : 0 2 | 117 : 0 3 | 200 : 0 0 | 112 : 0 1 
+  </relation>
+  <relation name="24_30" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    35 : 3 1 | 121 : 3 0 | 10000 : 3 3 | 31 : 3 2 | 100 : 2 0 | 14 : 2 1 | 10000 : 2 2 | 5 : 2 3 | 28 : 1 3 | 33 : 1 2 | 10000 : 1 1 | 123 : 1 0 | 110 : 0 2 | 105 : 0 3 | 200 : 0 0 | 114 : 0 1 
+  </relation>
+  <relation name="24_31" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    32 : 3 1 | 121 : 3 0 | 10000 : 3 3 | 40 : 3 2 | 100 : 2 0 | 11 : 2 1 | 10000 : 2 2 | 7 : 2 3 | 30 : 1 3 | 42 : 1 2 | 10000 : 1 1 | 123 : 1 0 | 119 : 0 2 | 107 : 0 3 | 200 : 0 0 | 111 : 0 1 
+  </relation>
+  <relation name="25_32" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    17 : 3 1 | 117 : 3 0 | 10000 : 3 3 | 22 : 3 2 | 120 : 2 0 | 20 : 2 1 | 10000 : 2 2 | 44 : 2 3 | 36 : 1 3 | 17 : 1 2 | 10000 : 1 1 | 112 : 1 0 | 105 : 0 2 | 124 : 0 3 | 200 : 0 0 | 100 : 0 1 
+  </relation>
+  <relation name="25_33" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    40 : 3 1 | 117 : 3 0 | 10000 : 3 3 | 35 : 3 2 | 120 : 2 0 | 43 : 2 1 | 10000 : 2 2 | 21 : 2 3 | 13 : 1 3 | 30 : 1 2 | 10000 : 1 1 | 112 : 1 0 | 118 : 0 2 | 101 : 0 3 | 200 : 0 0 | 123 : 0 1 
+  </relation>
+  <relation name="25_26" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    19 : 3 1 | 117 : 3 0 | 10000 : 3 3 | 34 : 3 2 | 120 : 2 0 | 22 : 2 1 | 10000 : 2 2 | 23 : 2 3 | 15 : 1 3 | 29 : 1 2 | 10000 : 1 1 | 112 : 1 0 | 117 : 0 2 | 103 : 0 3 | 200 : 0 0 | 102 : 0 1 
+  </relation>
+  <relation name="25_31" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    28 : 3 1 | 117 : 3 0 | 10000 : 3 3 | 36 : 3 2 | 120 : 2 0 | 31 : 2 1 | 10000 : 2 2 | 27 : 2 3 | 19 : 1 3 | 31 : 1 2 | 10000 : 1 1 | 112 : 1 0 | 119 : 0 2 | 107 : 0 3 | 200 : 0 0 | 111 : 0 1 
+  </relation>
+  <relation name="26_32" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    3 : 3 1 | 103 : 3 0 | 10000 : 3 3 | 8 : 3 2 | 117 : 2 0 | 17 : 2 1 | 10000 : 2 2 | 41 : 2 3 | 26 : 1 3 | 7 : 1 2 | 10000 : 1 1 | 102 : 1 0 | 105 : 0 2 | 124 : 0 3 | 200 : 0 0 | 100 : 0 1 
+  </relation>
+  <relation name="26_33" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    26 : 3 1 | 103 : 3 0 | 10000 : 3 3 | 21 : 3 2 | 117 : 2 0 | 40 : 2 1 | 10000 : 2 2 | 18 : 2 3 | 3 : 1 3 | 20 : 1 2 | 10000 : 1 1 | 102 : 1 0 | 118 : 0 2 | 101 : 0 3 | 200 : 0 0 | 123 : 0 1 
+  </relation>
+  <relation name="26_34" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    13 : 3 1 | 103 : 3 0 | 10000 : 3 3 | 19 : 3 2 | 117 : 2 0 | 27 : 2 1 | 10000 : 2 2 | 21 : 2 3 | 6 : 1 3 | 18 : 1 2 | 10000 : 1 1 | 102 : 1 0 | 116 : 0 2 | 104 : 0 3 | 200 : 0 0 | 110 : 0 1 
+  </relation>
+  <relation name="26_27" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    24 : 3 1 | 103 : 3 0 | 10000 : 3 3 | 25 : 3 2 | 117 : 2 0 | 38 : 2 1 | 10000 : 2 2 | 31 : 2 3 | 16 : 1 3 | 24 : 1 2 | 10000 : 1 1 | 102 : 1 0 | 122 : 0 2 | 114 : 0 3 | 200 : 0 0 | 121 : 0 1 
+  </relation>
+  <relation name="27_33" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    37 : 3 1 | 114 : 3 0 | 10000 : 3 3 | 32 : 3 2 | 122 : 2 0 | 45 : 2 1 | 10000 : 2 2 | 23 : 2 3 | 22 : 1 3 | 39 : 1 2 | 10000 : 1 1 | 121 : 1 0 | 118 : 0 2 | 101 : 0 3 | 200 : 0 0 | 123 : 0 1 
+  </relation>
+  <relation name="27_34" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    24 : 3 1 | 114 : 3 0 | 10000 : 3 3 | 30 : 3 2 | 122 : 2 0 | 32 : 2 1 | 10000 : 2 2 | 26 : 2 3 | 25 : 1 3 | 37 : 1 2 | 10000 : 1 1 | 121 : 1 0 | 116 : 0 2 | 104 : 0 3 | 200 : 0 0 | 110 : 0 1 
+  </relation>
+  <relation name="28_35" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    10 : 3 1 | 102 : 3 0 | 10000 : 3 3 | 7 : 3 2 | 101 : 2 0 | 9 : 2 1 | 10000 : 2 2 | 25 : 2 3 | 29 : 1 3 | 10 : 1 2 | 10000 : 1 1 | 105 : 1 0 | 105 : 0 2 | 124 : 0 3 | 200 : 0 0 | 108 : 0 1 
+  </relation>
+  <relation name="28_36" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    2 : 3 1 | 102 : 3 0 | 10000 : 3 3 | 10 : 3 2 | 101 : 2 0 | 1 : 2 1 | 10000 : 2 2 | 19 : 2 3 | 23 : 1 3 | 13 : 1 2 | 10000 : 1 1 | 105 : 1 0 | 108 : 0 2 | 118 : 0 3 | 200 : 0 0 | 100 : 0 1 
+  </relation>
+  <relation name="28_29" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    3 : 3 1 | 102 : 3 0 | 10000 : 3 3 | 12 : 3 2 | 101 : 2 0 | 2 : 2 1 | 10000 : 2 2 | 16 : 2 3 | 20 : 1 3 | 15 : 1 2 | 10000 : 1 1 | 105 : 1 0 | 110 : 0 2 | 115 : 0 3 | 200 : 0 0 | 101 : 0 1 
+  </relation>
+  <relation name="29_35" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    23 : 3 1 | 115 : 3 0 | 10000 : 3 3 | 20 : 3 2 | 110 : 2 0 | 18 : 2 1 | 10000 : 2 2 | 34 : 2 3 | 25 : 1 3 | 6 : 1 2 | 10000 : 1 1 | 101 : 1 0 | 105 : 0 2 | 124 : 0 3 | 200 : 0 0 | 108 : 0 1 
+  </relation>
+  <relation name="29_36" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    15 : 3 1 | 115 : 3 0 | 10000 : 3 3 | 23 : 3 2 | 110 : 2 0 | 10 : 2 1 | 10000 : 2 2 | 28 : 2 3 | 19 : 1 3 | 9 : 1 2 | 10000 : 1 1 | 101 : 1 0 | 108 : 0 2 | 118 : 0 3 | 200 : 0 0 | 100 : 0 1 
+  </relation>
+  <relation name="29_37" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    20 : 3 1 | 115 : 3 0 | 10000 : 3 3 | 19 : 3 2 | 110 : 2 0 | 15 : 2 1 | 10000 : 2 2 | 25 : 2 3 | 16 : 1 3 | 5 : 1 2 | 10000 : 1 1 | 101 : 1 0 | 104 : 0 2 | 115 : 0 3 | 200 : 0 0 | 105 : 0 1 
+  </relation>
+  <relation name="29_30" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    29 : 3 1 | 115 : 3 0 | 10000 : 3 3 | 25 : 3 2 | 110 : 2 0 | 24 : 2 1 | 10000 : 2 2 | 15 : 2 3 | 6 : 1 3 | 11 : 1 2 | 10000 : 1 1 | 101 : 1 0 | 110 : 0 2 | 105 : 0 3 | 200 : 0 0 | 114 : 0 1 
+  </relation>
+  <relation name="30_36" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    5 : 3 1 | 105 : 3 0 | 10000 : 3 3 | 13 : 3 2 | 110 : 2 0 | 10 : 2 1 | 10000 : 2 2 | 28 : 2 3 | 32 : 1 3 | 22 : 1 2 | 10000 : 1 1 | 114 : 1 0 | 108 : 0 2 | 118 : 0 3 | 200 : 0 0 | 100 : 0 1 
+  </relation>
+  <relation name="30_37" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    10 : 3 1 | 105 : 3 0 | 10000 : 3 3 | 9 : 3 2 | 110 : 2 0 | 15 : 2 1 | 10000 : 2 2 | 25 : 2 3 | 29 : 1 3 | 18 : 1 2 | 10000 : 1 1 | 114 : 1 0 | 104 : 0 2 | 115 : 0 3 | 200 : 0 0 | 105 : 0 1 
+  </relation>
+  <relation name="30_38" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    24 : 3 1 | 105 : 3 0 | 10000 : 3 3 | 14 : 3 2 | 110 : 2 0 | 29 : 2 1 | 10000 : 2 2 | 29 : 2 3 | 33 : 1 3 | 23 : 1 2 | 10000 : 1 1 | 114 : 1 0 | 109 : 0 2 | 119 : 0 3 | 200 : 0 0 | 119 : 0 1 
+  </relation>
+  <relation name="30_31" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    16 : 3 1 | 105 : 3 0 | 10000 : 3 3 | 24 : 3 2 | 110 : 2 0 | 21 : 2 1 | 10000 : 2 2 | 17 : 2 3 | 21 : 1 3 | 33 : 1 2 | 10000 : 1 1 | 114 : 1 0 | 119 : 0 2 | 107 : 0 3 | 200 : 0 0 | 111 : 0 1 
+  </relation>
+  <relation name="31_32" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    7 : 3 1 | 107 : 3 0 | 10000 : 3 3 | 12 : 3 2 | 119 : 2 0 | 19 : 2 1 | 10000 : 2 2 | 43 : 2 3 | 35 : 1 3 | 16 : 1 2 | 10000 : 1 1 | 111 : 1 0 | 105 : 0 2 | 124 : 0 3 | 200 : 0 0 | 100 : 0 1 
+  </relation>
+  <relation name="31_37" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    12 : 3 1 | 107 : 3 0 | 10000 : 3 3 | 11 : 3 2 | 119 : 2 0 | 24 : 2 1 | 10000 : 2 2 | 34 : 2 3 | 26 : 1 3 | 15 : 1 2 | 10000 : 1 1 | 111 : 1 0 | 104 : 0 2 | 115 : 0 3 | 200 : 0 0 | 105 : 0 1 
+  </relation>
+  <relation name="31_38" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    26 : 3 1 | 107 : 3 0 | 10000 : 3 3 | 16 : 3 2 | 119 : 2 0 | 38 : 2 1 | 10000 : 2 2 | 38 : 2 3 | 30 : 1 3 | 20 : 1 2 | 10000 : 1 1 | 111 : 1 0 | 109 : 0 2 | 119 : 0 3 | 200 : 0 0 | 119 : 0 1 
+  </relation>
+  <relation name="31_39" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    28 : 3 1 | 107 : 3 0 | 10000 : 3 3 | 17 : 3 2 | 119 : 2 0 | 40 : 2 1 | 10000 : 2 2 | 23 : 2 3 | 15 : 1 3 | 21 : 1 2 | 10000 : 1 1 | 111 : 1 0 | 110 : 0 2 | 104 : 0 3 | 200 : 0 0 | 121 : 0 1 
+  </relation>
+  <relation name="32_33" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    47 : 3 1 | 124 : 3 0 | 10000 : 3 3 | 42 : 3 2 | 105 : 2 0 | 28 : 2 1 | 10000 : 2 2 | 6 : 2 3 | 1 : 1 3 | 18 : 1 2 | 10000 : 1 1 | 100 : 1 0 | 118 : 0 2 | 101 : 0 3 | 200 : 0 0 | 123 : 0 1 
+  </relation>
+  <relation name="32_38" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    43 : 3 1 | 124 : 3 0 | 10000 : 3 3 | 33 : 3 2 | 105 : 2 0 | 24 : 2 1 | 10000 : 2 2 | 24 : 2 3 | 19 : 1 3 | 9 : 1 2 | 10000 : 1 1 | 100 : 1 0 | 109 : 0 2 | 119 : 0 3 | 200 : 0 0 | 119 : 0 1 
+  </relation>
+  <relation name="32_39" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    45 : 3 1 | 124 : 3 0 | 10000 : 3 3 | 34 : 3 2 | 105 : 2 0 | 26 : 2 1 | 10000 : 2 2 | 9 : 2 3 | 4 : 1 3 | 10 : 1 2 | 10000 : 1 1 | 100 : 1 0 | 110 : 0 2 | 104 : 0 3 | 200 : 0 0 | 121 : 0 1 
+  </relation>
+  <relation name="32_40" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    38 : 3 1 | 124 : 3 0 | 10000 : 3 3 | 25 : 3 2 | 105 : 2 0 | 19 : 2 1 | 10000 : 2 2 | 20 : 2 3 | 15 : 1 3 | 1 : 1 2 | 10000 : 1 1 | 100 : 1 0 | 101 : 0 2 | 115 : 0 3 | 200 : 0 0 | 114 : 0 1 
+  </relation>
+  <relation name="33_34" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    11 : 3 1 | 101 : 3 0 | 10000 : 3 3 | 17 : 3 2 | 118 : 2 0 | 28 : 2 1 | 10000 : 2 2 | 22 : 2 3 | 27 : 1 3 | 39 : 1 2 | 10000 : 1 1 | 123 : 1 0 | 116 : 0 2 | 104 : 0 3 | 200 : 0 0 | 110 : 0 1 
+  </relation>
+  <relation name="33_39" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    22 : 3 1 | 101 : 3 0 | 10000 : 3 3 | 11 : 3 2 | 118 : 2 0 | 39 : 2 1 | 10000 : 2 2 | 22 : 2 3 | 27 : 1 3 | 33 : 1 2 | 10000 : 1 1 | 123 : 1 0 | 110 : 0 2 | 104 : 0 3 | 200 : 0 0 | 121 : 0 1 
+  </relation>
+  <relation name="33_40" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    15 : 3 1 | 101 : 3 0 | 10000 : 3 3 | 2 : 3 2 | 118 : 2 0 | 32 : 2 1 | 10000 : 2 2 | 33 : 2 3 | 38 : 1 3 | 24 : 1 2 | 10000 : 1 1 | 123 : 1 0 | 101 : 0 2 | 115 : 0 3 | 200 : 0 0 | 114 : 0 1 
+  </relation>
+  <relation name="33_41" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    22 : 3 1 | 101 : 3 0 | 10000 : 3 3 | 15 : 3 2 | 118 : 2 0 | 39 : 2 1 | 10000 : 2 2 | 27 : 2 3 | 32 : 1 3 | 37 : 1 2 | 10000 : 1 1 | 123 : 1 0 | 114 : 0 2 | 109 : 0 3 | 200 : 0 0 | 121 : 0 1 
+  </relation>
+  <relation name="34_40" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    18 : 3 1 | 104 : 3 0 | 10000 : 3 3 | 5 : 3 2 | 116 : 2 0 | 30 : 2 1 | 10000 : 2 2 | 31 : 2 3 | 25 : 1 3 | 11 : 1 2 | 10000 : 1 1 | 110 : 1 0 | 101 : 0 2 | 115 : 0 3 | 200 : 0 0 | 114 : 0 1 
+  </relation>
+  <relation name="34_41" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    25 : 3 1 | 104 : 3 0 | 10000 : 3 3 | 18 : 3 2 | 116 : 2 0 | 37 : 2 1 | 10000 : 2 2 | 25 : 2 3 | 19 : 1 3 | 24 : 1 2 | 10000 : 1 1 | 110 : 1 0 | 114 : 0 2 | 109 : 0 3 | 200 : 0 0 | 121 : 0 1 
+  </relation>
+  <relation name="35_36" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    24 : 3 1 | 124 : 3 0 | 10000 : 3 3 | 32 : 3 2 | 105 : 2 0 | 5 : 2 1 | 10000 : 2 2 | 23 : 2 3 | 26 : 1 3 | 16 : 1 2 | 10000 : 1 1 | 108 : 1 0 | 108 : 0 2 | 118 : 0 3 | 200 : 0 0 | 100 : 0 1 
+  </relation>
+  <relation name="35_42" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    29 : 3 1 | 124 : 3 0 | 10000 : 3 3 | 40 : 3 2 | 105 : 2 0 | 10 : 2 1 | 10000 : 2 2 | 21 : 2 3 | 24 : 1 3 | 24 : 1 2 | 10000 : 1 1 | 108 : 1 0 | 116 : 0 2 | 116 : 0 3 | 200 : 0 0 | 105 : 0 1 
+  </relation>
+  <relation name="35_43" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    28 : 3 1 | 124 : 3 0 | 10000 : 3 3 | 38 : 3 2 | 105 : 2 0 | 9 : 2 1 | 10000 : 2 2 | 14 : 2 3 | 17 : 1 3 | 22 : 1 2 | 10000 : 1 1 | 108 : 1 0 | 114 : 0 2 | 109 : 0 3 | 200 : 0 0 | 104 : 0 1 
+  </relation>
+  <relation name="36_37" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    23 : 3 1 | 118 : 3 0 | 10000 : 3 3 | 22 : 3 2 | 108 : 2 0 | 13 : 2 1 | 10000 : 2 2 | 23 : 2 3 | 15 : 1 3 | 4 : 1 2 | 10000 : 1 1 | 100 : 1 0 | 104 : 0 2 | 115 : 0 3 | 200 : 0 0 | 105 : 0 1 
+  </relation>
+  <relation name="36_42" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    23 : 3 1 | 118 : 3 0 | 10000 : 3 3 | 34 : 3 2 | 108 : 2 0 | 13 : 2 1 | 10000 : 2 2 | 24 : 2 3 | 16 : 1 3 | 16 : 1 2 | 10000 : 1 1 | 100 : 1 0 | 116 : 0 2 | 116 : 0 3 | 200 : 0 0 | 105 : 0 1 
+  </relation>
+  <relation name="36_43" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    22 : 3 1 | 118 : 3 0 | 10000 : 3 3 | 32 : 3 2 | 108 : 2 0 | 12 : 2 1 | 10000 : 2 2 | 17 : 2 3 | 9 : 1 3 | 14 : 1 2 | 10000 : 1 1 | 100 : 1 0 | 114 : 0 2 | 109 : 0 3 | 200 : 0 0 | 104 : 0 1 
+  </relation>
+  <relation name="36_44" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    26 : 3 1 | 118 : 3 0 | 10000 : 3 3 | 42 : 3 2 | 108 : 2 0 | 16 : 2 1 | 10000 : 2 2 | 11 : 2 3 | 3 : 1 3 | 24 : 1 2 | 10000 : 1 1 | 100 : 1 0 | 124 : 0 2 | 103 : 0 3 | 200 : 0 0 | 108 : 0 1 
+  </relation>
+  <relation name="37_38" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    34 : 3 1 | 115 : 3 0 | 10000 : 3 3 | 24 : 3 2 | 104 : 2 0 | 23 : 2 1 | 10000 : 2 2 | 23 : 2 3 | 24 : 1 3 | 14 : 1 2 | 10000 : 1 1 | 105 : 1 0 | 109 : 0 2 | 119 : 0 3 | 200 : 0 0 | 119 : 0 1 
+  </relation>
+  <relation name="37_43" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    19 : 3 1 | 115 : 3 0 | 10000 : 3 3 | 29 : 3 2 | 104 : 2 0 | 8 : 2 1 | 10000 : 2 2 | 13 : 2 3 | 14 : 1 3 | 19 : 1 2 | 10000 : 1 1 | 105 : 1 0 | 114 : 0 2 | 109 : 0 3 | 200 : 0 0 | 104 : 0 1 
+  </relation>
+  <relation name="37_44" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    23 : 3 1 | 115 : 3 0 | 10000 : 3 3 | 39 : 3 2 | 104 : 2 0 | 12 : 2 1 | 10000 : 2 2 | 7 : 2 3 | 8 : 1 3 | 29 : 1 2 | 10000 : 1 1 | 105 : 1 0 | 124 : 0 2 | 103 : 0 3 | 200 : 0 0 | 108 : 0 1 
+  </relation>
+  <relation name="37_45" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    27 : 3 1 | 115 : 3 0 | 10000 : 3 3 | 25 : 3 2 | 104 : 2 0 | 16 : 2 1 | 10000 : 2 2 | 12 : 2 3 | 13 : 1 3 | 15 : 1 2 | 10000 : 1 1 | 105 : 1 0 | 110 : 0 2 | 108 : 0 3 | 200 : 0 0 | 112 : 0 1 
+  </relation>
+  <relation name="38_39" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    40 : 3 1 | 119 : 3 0 | 10000 : 3 3 | 29 : 3 2 | 109 : 2 0 | 30 : 2 1 | 10000 : 2 2 | 13 : 2 3 | 23 : 1 3 | 29 : 1 2 | 10000 : 1 1 | 119 : 1 0 | 110 : 0 2 | 104 : 0 3 | 200 : 0 0 | 121 : 0 1 
+  </relation>
+  <relation name="38_44" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    27 : 3 1 | 119 : 3 0 | 10000 : 3 3 | 43 : 3 2 | 109 : 2 0 | 17 : 2 1 | 10000 : 2 2 | 12 : 2 3 | 22 : 1 3 | 43 : 1 2 | 10000 : 1 1 | 119 : 1 0 | 124 : 0 2 | 103 : 0 3 | 200 : 0 0 | 108 : 0 1 
+  </relation>
+  <relation name="38_45" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    31 : 3 1 | 119 : 3 0 | 10000 : 3 3 | 29 : 3 2 | 109 : 2 0 | 21 : 2 1 | 10000 : 2 2 | 17 : 2 3 | 27 : 1 3 | 29 : 1 2 | 10000 : 1 1 | 119 : 1 0 | 110 : 0 2 | 108 : 0 3 | 200 : 0 0 | 112 : 0 1 
+  </relation>
+  <relation name="38_46" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    30 : 3 1 | 119 : 3 0 | 10000 : 3 3 | 29 : 3 2 | 109 : 2 0 | 20 : 2 1 | 10000 : 2 2 | 25 : 2 3 | 35 : 1 3 | 29 : 1 2 | 10000 : 1 1 | 119 : 1 0 | 110 : 0 2 | 116 : 0 3 | 200 : 0 0 | 111 : 0 1 
+  </relation>
+  <relation name="39_40" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    18 : 3 1 | 104 : 3 0 | 10000 : 3 3 | 5 : 3 2 | 110 : 2 0 | 24 : 2 1 | 10000 : 2 2 | 25 : 2 3 | 36 : 1 3 | 22 : 1 2 | 10000 : 1 1 | 121 : 1 0 | 101 : 0 2 | 115 : 0 3 | 200 : 0 0 | 114 : 0 1 
+  </relation>
+  <relation name="39_45" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    16 : 3 1 | 104 : 3 0 | 10000 : 3 3 | 14 : 3 2 | 110 : 2 0 | 22 : 2 1 | 10000 : 2 2 | 18 : 2 3 | 29 : 1 3 | 31 : 1 2 | 10000 : 1 1 | 121 : 1 0 | 110 : 0 2 | 108 : 0 3 | 200 : 0 0 | 112 : 0 1 
+  </relation>
+  <relation name="39_46" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    15 : 3 1 | 104 : 3 0 | 10000 : 3 3 | 14 : 3 2 | 110 : 2 0 | 21 : 2 1 | 10000 : 2 2 | 26 : 2 3 | 37 : 1 3 | 31 : 1 2 | 10000 : 1 1 | 121 : 1 0 | 110 : 0 2 | 116 : 0 3 | 200 : 0 0 | 111 : 0 1 
+  </relation>
+  <relation name="39_47" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    10 : 3 1 | 104 : 3 0 | 10000 : 3 3 | 20 : 3 2 | 110 : 2 0 | 16 : 2 1 | 10000 : 2 2 | 32 : 2 3 | 43 : 1 3 | 37 : 1 2 | 10000 : 1 1 | 121 : 1 0 | 116 : 0 2 | 122 : 0 3 | 200 : 0 0 | 106 : 0 1 
+  </relation>
+  <relation name="40_41" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    36 : 3 1 | 115 : 3 0 | 10000 : 3 3 | 29 : 3 2 | 101 : 2 0 | 22 : 2 1 | 10000 : 2 2 | 10 : 2 3 | 23 : 1 3 | 28 : 1 2 | 10000 : 1 1 | 114 : 1 0 | 114 : 0 2 | 109 : 0 3 | 200 : 0 0 | 121 : 0 1 
+  </relation>
+  <relation name="40_46" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    26 : 3 1 | 115 : 3 0 | 10000 : 3 3 | 25 : 3 2 | 101 : 2 0 | 12 : 2 1 | 10000 : 2 2 | 17 : 2 3 | 30 : 1 3 | 24 : 1 2 | 10000 : 1 1 | 114 : 1 0 | 110 : 0 2 | 116 : 0 3 | 200 : 0 0 | 111 : 0 1 
+  </relation>
+  <relation name="40_47" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    21 : 3 1 | 115 : 3 0 | 10000 : 3 3 | 31 : 3 2 | 101 : 2 0 | 7 : 2 1 | 10000 : 2 2 | 23 : 2 3 | 36 : 1 3 | 30 : 1 2 | 10000 : 1 1 | 114 : 1 0 | 116 : 0 2 | 122 : 0 3 | 200 : 0 0 | 106 : 0 1 
+  </relation>
+  <relation name="40_48" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    39 : 3 1 | 115 : 3 0 | 10000 : 3 3 | 27 : 3 2 | 101 : 2 0 | 25 : 2 1 | 10000 : 2 2 | 9 : 2 3 | 22 : 1 3 | 26 : 1 2 | 10000 : 1 1 | 114 : 1 0 | 112 : 0 2 | 108 : 0 3 | 200 : 0 0 | 124 : 0 1 
+  </relation>
+  <relation name="41_48" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    33 : 3 1 | 109 : 3 0 | 10000 : 3 3 | 21 : 3 2 | 114 : 2 0 | 38 : 2 1 | 10000 : 2 2 | 22 : 2 3 | 29 : 1 3 | 33 : 1 2 | 10000 : 1 1 | 121 : 1 0 | 112 : 0 2 | 108 : 0 3 | 200 : 0 0 | 124 : 0 1 
+  </relation>
+  <relation name="41_47" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    15 : 3 1 | 109 : 3 0 | 10000 : 3 3 | 25 : 3 2 | 114 : 2 0 | 20 : 2 1 | 10000 : 2 2 | 36 : 2 3 | 43 : 1 3 | 37 : 1 2 | 10000 : 1 1 | 121 : 1 0 | 116 : 0 2 | 122 : 0 3 | 200 : 0 0 | 106 : 0 1 
+  </relation>
+  <relation name="42_43" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    20 : 3 1 | 116 : 3 0 | 10000 : 3 3 | 30 : 3 2 | 116 : 2 0 | 20 : 2 1 | 10000 : 2 2 | 25 : 2 3 | 14 : 1 3 | 19 : 1 2 | 10000 : 1 1 | 105 : 1 0 | 114 : 0 2 | 109 : 0 3 | 200 : 0 0 | 104 : 0 1 
+  </relation>
+  <relation name="43_44" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    17 : 3 1 | 109 : 3 0 | 10000 : 3 3 | 33 : 3 2 | 114 : 2 0 | 22 : 2 1 | 10000 : 2 2 | 17 : 2 3 | 7 : 1 3 | 28 : 1 2 | 10000 : 1 1 | 104 : 1 0 | 124 : 0 2 | 103 : 0 3 | 200 : 0 0 | 108 : 0 1 
+  </relation>
+  <relation name="44_45" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    15 : 3 1 | 103 : 3 0 | 10000 : 3 3 | 13 : 3 2 | 124 : 2 0 | 36 : 2 1 | 10000 : 2 2 | 32 : 2 3 | 16 : 1 3 | 18 : 1 2 | 10000 : 1 1 | 108 : 1 0 | 110 : 0 2 | 108 : 0 3 | 200 : 0 0 | 112 : 0 1 
+  </relation>
+  <relation name="45_46" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    19 : 3 1 | 108 : 3 0 | 10000 : 3 3 | 18 : 3 2 | 110 : 2 0 | 21 : 2 1 | 10000 : 2 2 | 26 : 2 3 | 28 : 1 3 | 22 : 1 2 | 10000 : 1 1 | 112 : 1 0 | 110 : 0 2 | 116 : 0 3 | 200 : 0 0 | 111 : 0 1 
+  </relation>
+  <relation name="46_47" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    22 : 3 1 | 116 : 3 0 | 10000 : 3 3 | 32 : 3 2 | 110 : 2 0 | 16 : 2 1 | 10000 : 2 2 | 32 : 2 3 | 33 : 1 3 | 27 : 1 2 | 10000 : 1 1 | 111 : 1 0 | 116 : 0 2 | 122 : 0 3 | 200 : 0 0 | 106 : 0 1 
+  </relation>
+  <relation name="47_48" arity="2" nbTuples="16" semantics="soft" defaultCost="0">
+    46 : 3 1 | 122 : 3 0 | 10000 : 3 3 | 34 : 3 2 | 116 : 2 0 | 40 : 2 1 | 10000 : 2 2 | 24 : 2 3 | 14 : 1 3 | 18 : 1 2 | 10000 : 1 1 | 106 : 1 0 | 112 : 0 2 | 108 : 0 3 | 200 : 0 0 | 124 : 0 1 
+  </relation>
+</relations>
+
+<constraints nbConstraints="156">
+  <constraint name="0_8" arity="2" scope="v0 v8" reference="0_8" />
+  <constraint name="0_1" arity="2" scope="v0 v1" reference="0_1" />
+  <constraint name="0_7" arity="2" scope="v0 v7" reference="0_7" />
+  <constraint name="1_8" arity="2" scope="v1 v8" reference="1_8" />
+  <constraint name="1_2" arity="2" scope="v1 v2" reference="1_2" />
+  <constraint name="1_9" arity="2" scope="v1 v9" reference="1_9" />
+  <constraint name="1_7" arity="2" scope="v1 v7" reference="1_7" />
+  <constraint name="2_8" arity="2" scope="v2 v8" reference="2_8" />
+  <constraint name="2_10" arity="2" scope="v2 v10" reference="2_10" />
+  <constraint name="2_3" arity="2" scope="v2 v3" reference="2_3" />
+  <constraint name="2_9" arity="2" scope="v2 v9" reference="2_9" />
+  <constraint name="3_9" arity="2" scope="v3 v9" reference="3_9" />
+  <constraint name="3_11" arity="2" scope="v3 v11" reference="3_11" />
+  <constraint name="3_4" arity="2" scope="v3 v4" reference="3_4" />
+  <constraint name="3_10" arity="2" scope="v3 v10" reference="3_10" />
+  <constraint name="4_11" arity="2" scope="v4 v11" reference="4_11" />
+  <constraint name="4_10" arity="2" scope="v4 v10" reference="4_10" />
+  <constraint name="4_12" arity="2" scope="v4 v12" reference="4_12" />
+  <constraint name="4_5" arity="2" scope="v4 v5" reference="4_5" />
+  <constraint name="5_12" arity="2" scope="v5 v12" reference="5_12" />
+  <constraint name="5_11" arity="2" scope="v5 v11" reference="5_11" />
+  <constraint name="5_13" arity="2" scope="v5 v13" reference="5_13" />
+  <constraint name="5_6" arity="2" scope="v5 v6" reference="5_6" />
+  <constraint name="6_12" arity="2" scope="v6 v12" reference="6_12" />
+  <constraint name="6_13" arity="2" scope="v6 v13" reference="6_13" />
+  <constraint name="7_14" arity="2" scope="v7 v14" reference="7_14" />
+  <constraint name="7_8" arity="2" scope="v7 v8" reference="7_8" />
+  <constraint name="7_15" arity="2" scope="v7 v15" reference="7_15" />
+  <constraint name="8_9" arity="2" scope="v8 v9" reference="8_9" />
+  <constraint name="8_14" arity="2" scope="v8 v14" reference="8_14" />
+  <constraint name="8_15" arity="2" scope="v8 v15" reference="8_15" />
+  <constraint name="8_16" arity="2" scope="v8 v16" reference="8_16" />
+  <constraint name="9_10" arity="2" scope="v9 v10" reference="9_10" />
+  <constraint name="9_15" arity="2" scope="v9 v15" reference="9_15" />
+  <constraint name="9_16" arity="2" scope="v9 v16" reference="9_16" />
+  <constraint name="9_17" arity="2" scope="v9 v17" reference="9_17" />
+  <constraint name="10_11" arity="2" scope="v10 v11" reference="10_11" />
+  <constraint name="10_16" arity="2" scope="v10 v16" reference="10_16" />
+  <constraint name="10_17" arity="2" scope="v10 v17" reference="10_17" />
+  <constraint name="10_18" arity="2" scope="v10 v18" reference="10_18" />
+  <constraint name="11_12" arity="2" scope="v11 v12" reference="11_12" />
+  <constraint name="11_17" arity="2" scope="v11 v17" reference="11_17" />
+  <constraint name="11_18" arity="2" scope="v11 v18" reference="11_18" />
+  <constraint name="11_19" arity="2" scope="v11 v19" reference="11_19" />
+  <constraint name="12_13" arity="2" scope="v12 v13" reference="12_13" />
+  <constraint name="12_18" arity="2" scope="v12 v18" reference="12_18" />
+  <constraint name="12_19" arity="2" scope="v12 v19" reference="12_19" />
+  <constraint name="12_20" arity="2" scope="v12 v20" reference="12_20" />
+  <constraint name="13_20" arity="2" scope="v13 v20" reference="13_20" />
+  <constraint name="13_19" arity="2" scope="v13 v19" reference="13_19" />
+  <constraint name="14_15" arity="2" scope="v14 v15" reference="14_15" />
+  <constraint name="14_21" arity="2" scope="v14 v21" reference="14_21" />
+  <constraint name="14_22" arity="2" scope="v14 v22" reference="14_22" />
+  <constraint name="15_16" arity="2" scope="v15 v16" reference="15_16" />
+  <constraint name="15_21" arity="2" scope="v15 v21" reference="15_21" />
+  <constraint name="15_22" arity="2" scope="v15 v22" reference="15_22" />
+  <constraint name="15_23" arity="2" scope="v15 v23" reference="15_23" />
+  <constraint name="16_17" arity="2" scope="v16 v17" reference="16_17" />
+  <constraint name="16_22" arity="2" scope="v16 v22" reference="16_22" />
+  <constraint name="16_23" arity="2" scope="v16 v23" reference="16_23" />
+  <constraint name="16_24" arity="2" scope="v16 v24" reference="16_24" />
+  <constraint name="17_18" arity="2" scope="v17 v18" reference="17_18" />
+  <constraint name="17_23" arity="2" scope="v17 v23" reference="17_23" />
+  <constraint name="17_24" arity="2" scope="v17 v24" reference="17_24" />
+  <constraint name="17_25" arity="2" scope="v17 v25" reference="17_25" />
+  <constraint name="18_19" arity="2" scope="v18 v19" reference="18_19" />
+  <constraint name="18_24" arity="2" scope="v18 v24" reference="18_24" />
+  <constraint name="18_25" arity="2" scope="v18 v25" reference="18_25" />
+  <constraint name="18_26" arity="2" scope="v18 v26" reference="18_26" />
+  <constraint name="19_20" arity="2" scope="v19 v20" reference="19_20" />
+  <constraint name="19_25" arity="2" scope="v19 v25" reference="19_25" />
+  <constraint name="19_26" arity="2" scope="v19 v26" reference="19_26" />
+  <constraint name="19_27" arity="2" scope="v19 v27" reference="19_27" />
+  <constraint name="20_27" arity="2" scope="v20 v27" reference="20_27" />
+  <constraint name="20_26" arity="2" scope="v20 v26" reference="20_26" />
+  <constraint name="21_29" arity="2" scope="v21 v29" reference="21_29" />
+  <constraint name="21_28" arity="2" scope="v21 v28" reference="21_28" />
+  <constraint name="21_22" arity="2" scope="v21 v22" reference="21_22" />
+  <constraint name="22_23" arity="2" scope="v22 v23" reference="22_23" />
+  <constraint name="22_28" arity="2" scope="v22 v28" reference="22_28" />
+  <constraint name="22_29" arity="2" scope="v22 v29" reference="22_29" />
+  <constraint name="22_30" arity="2" scope="v22 v30" reference="22_30" />
+  <constraint name="23_24" arity="2" scope="v23 v24" reference="23_24" />
+  <constraint name="23_29" arity="2" scope="v23 v29" reference="23_29" />
+  <constraint name="23_30" arity="2" scope="v23 v30" reference="23_30" />
+  <constraint name="23_31" arity="2" scope="v23 v31" reference="23_31" />
+  <constraint name="24_32" arity="2" scope="v24 v32" reference="24_32" />
+  <constraint name="24_25" arity="2" scope="v24 v25" reference="24_25" />
+  <constraint name="24_30" arity="2" scope="v24 v30" reference="24_30" />
+  <constraint name="24_31" arity="2" scope="v24 v31" reference="24_31" />
+  <constraint name="25_32" arity="2" scope="v25 v32" reference="25_32" />
+  <constraint name="25_33" arity="2" scope="v25 v33" reference="25_33" />
+  <constraint name="25_26" arity="2" scope="v25 v26" reference="25_26" />
+  <constraint name="25_31" arity="2" scope="v25 v31" reference="25_31" />
+  <constraint name="26_32" arity="2" scope="v26 v32" reference="26_32" />
+  <constraint name="26_33" arity="2" scope="v26 v33" reference="26_33" />
+  <constraint name="26_34" arity="2" scope="v26 v34" reference="26_34" />
+  <constraint name="26_27" arity="2" scope="v26 v27" reference="26_27" />
+  <constraint name="27_33" arity="2" scope="v27 v33" reference="27_33" />
+  <constraint name="27_34" arity="2" scope="v27 v34" reference="27_34" />
+  <constraint name="28_35" arity="2" scope="v28 v35" reference="28_35" />
+  <constraint name="28_36" arity="2" scope="v28 v36" reference="28_36" />
+  <constraint name="28_29" arity="2" scope="v28 v29" reference="28_29" />
+  <constraint name="29_35" arity="2" scope="v29 v35" reference="29_35" />
+  <constraint name="29_36" arity="2" scope="v29 v36" reference="29_36" />
+  <constraint name="29_37" arity="2" scope="v29 v37" reference="29_37" />
+  <constraint name="29_30" arity="2" scope="v29 v30" reference="29_30" />
+  <constraint name="30_36" arity="2" scope="v30 v36" reference="30_36" />
+  <constraint name="30_37" arity="2" scope="v30 v37" reference="30_37" />
+  <constraint name="30_38" arity="2" scope="v30 v38" reference="30_38" />
+  <constraint name="30_31" arity="2" scope="v30 v31" reference="30_31" />
+  <constraint name="31_32" arity="2" scope="v31 v32" reference="31_32" />
+  <constraint name="31_37" arity="2" scope="v31 v37" reference="31_37" />
+  <constraint name="31_38" arity="2" scope="v31 v38" reference="31_38" />
+  <constraint name="31_39" arity="2" scope="v31 v39" reference="31_39" />
+  <constraint name="32_33" arity="2" scope="v32 v33" reference="32_33" />
+  <constraint name="32_38" arity="2" scope="v32 v38" reference="32_38" />
+  <constraint name="32_39" arity="2" scope="v32 v39" reference="32_39" />
+  <constraint name="32_40" arity="2" scope="v32 v40" reference="32_40" />
+  <constraint name="33_34" arity="2" scope="v33 v34" reference="33_34" />
+  <constraint name="33_39" arity="2" scope="v33 v39" reference="33_39" />
+  <constraint name="33_40" arity="2" scope="v33 v40" reference="33_40" />
+  <constraint name="33_41" arity="2" scope="v33 v41" reference="33_41" />
+  <constraint name="34_40" arity="2" scope="v34 v40" reference="34_40" />
+  <constraint name="34_41" arity="2" scope="v34 v41" reference="34_41" />
+  <constraint name="35_36" arity="2" scope="v35 v36" reference="35_36" />
+  <constraint name="35_42" arity="2" scope="v35 v42" reference="35_42" />
+  <constraint name="35_43" arity="2" scope="v35 v43" reference="35_43" />
+  <constraint name="36_37" arity="2" scope="v36 v37" reference="36_37" />
+  <constraint name="36_42" arity="2" scope="v36 v42" reference="36_42" />
+  <constraint name="36_43" arity="2" scope="v36 v43" reference="36_43" />
+  <constraint name="36_44" arity="2" scope="v36 v44" reference="36_44" />
+  <constraint name="37_38" arity="2" scope="v37 v38" reference="37_38" />
+  <constraint name="37_43" arity="2" scope="v37 v43" reference="37_43" />
+  <constraint name="37_44" arity="2" scope="v37 v44" reference="37_44" />
+  <constraint name="37_45" arity="2" scope="v37 v45" reference="37_45" />
+  <constraint name="38_39" arity="2" scope="v38 v39" reference="38_39" />
+  <constraint name="38_44" arity="2" scope="v38 v44" reference="38_44" />
+  <constraint name="38_45" arity="2" scope="v38 v45" reference="38_45" />
+  <constraint name="38_46" arity="2" scope="v38 v46" reference="38_46" />
+  <constraint name="39_40" arity="2" scope="v39 v40" reference="39_40" />
+  <constraint name="39_45" arity="2" scope="v39 v45" reference="39_45" />
+  <constraint name="39_46" arity="2" scope="v39 v46" reference="39_46" />
+  <constraint name="39_47" arity="2" scope="v39 v47" reference="39_47" />
+  <constraint name="40_41" arity="2" scope="v40 v41" reference="40_41" />
+  <constraint name="40_46" arity="2" scope="v40 v46" reference="40_46" />
+  <constraint name="40_47" arity="2" scope="v40 v47" reference="40_47" />
+  <constraint name="40_48" arity="2" scope="v40 v48" reference="40_48" />
+  <constraint name="41_48" arity="2" scope="v41 v48" reference="41_48" />
+  <constraint name="41_47" arity="2" scope="v41 v47" reference="41_47" />
+  <constraint name="42_43" arity="2" scope="v42 v43" reference="42_43" />
+  <constraint name="43_44" arity="2" scope="v43 v44" reference="43_44" />
+  <constraint name="44_45" arity="2" scope="v44 v45" reference="44_45" />
+  <constraint name="45_46" arity="2" scope="v45 v46" reference="45_46" />
+  <constraint name="46_47" arity="2" scope="v46 v47" reference="46_47" />
+  <constraint name="47_48" arity="2" scope="v47 v48" reference="47_48" />
+</constraints>
+</instance >

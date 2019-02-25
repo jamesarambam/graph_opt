@@ -1,0 +1,803 @@
+
+# -------------------- START --------------------- #
+Graph > 
+Nodes : 49
+Edges : 234
+Density : 0.2
+QP Edges : 61.54 %
+LP Edges : 38.46 %
+# ---------------------- #
+Iteration : 1
+ Total BCD Iteration : 16
+ BCD Runtime : 0.022363
+ Continuous Objective : 10858.538907
+ Integer Objective : 7840.000000
+ Iteration Runtime : 0.023977
+ Total Runtime : 0.023977
+# ---------------------- #
+Iteration : 2
+ Total BCD Iteration : 17
+ BCD Runtime : 0.026016
+ Continuous Objective : 10319.815547
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.027277
+ Total Runtime : 0.051254
+# ---------------------- #
+Iteration : 3
+ Total BCD Iteration : 14
+ BCD Runtime : 0.021762
+ Continuous Objective : 9999.353728
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.022948
+ Total Runtime : 0.074202
+# ---------------------- #
+Iteration : 4
+ Total BCD Iteration : 15
+ BCD Runtime : 0.022474
+ Continuous Objective : 9785.202249
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.023794
+ Total Runtime : 0.097996
+# ---------------------- #
+Iteration : 5
+ Total BCD Iteration : 15
+ BCD Runtime : 0.022008
+ Continuous Objective : 9630.731522
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.023200
+ Total Runtime : 0.121196
+# ================== Final Result ===================== #
+Total Outer Iteration : 5
+Continuous Objective : 9630.731522
+Integer Objective : 7827.000000
+Total Execution Time in C : 0.121561 Seconds
+
+Instance : 49_4_2_1
+QP Edges : 61 %
+LP Edges : 38 %
+Total Execution Runtime : 0.407 Seconds
+# --------------------- END ---------------------- #
+# -------------------- START --------------------- #
+Graph > 
+Nodes : 49
+Edges : 234
+Density : 0.2
+QP Edges : 61.54 %
+LP Edges : 38.46 %
+# ---------------------- #
+Iteration : 1
+ Total BCD Iteration : 16
+ BCD Runtime : 0.022252
+ Continuous Objective : 10858.538907
+ Integer Objective : 7840.000000
+ Iteration Runtime : 0.023495
+ Total Runtime : 0.023495
+# ---------------------- #
+Iteration : 2
+ Total BCD Iteration : 17
+ BCD Runtime : 0.025498
+ Continuous Objective : 10319.815547
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.026745
+ Total Runtime : 0.050240
+# ---------------------- #
+Iteration : 3
+ Total BCD Iteration : 14
+ BCD Runtime : 0.021356
+ Continuous Objective : 9999.353728
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.022480
+ Total Runtime : 0.072720
+# ---------------------- #
+Iteration : 4
+ Total BCD Iteration : 15
+ BCD Runtime : 0.022966
+ Continuous Objective : 9785.202249
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.024088
+ Total Runtime : 0.096808
+# ---------------------- #
+Iteration : 5
+ Total BCD Iteration : 15
+ BCD Runtime : 0.023612
+ Continuous Objective : 9630.731522
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.024793
+ Total Runtime : 0.121601
+# ================== Final Result ===================== #
+Total Outer Iteration : 5
+Continuous Objective : 9630.731522
+Integer Objective : 7827.000000
+Total Execution Time in C : 0.121863 Seconds
+
+Instance : 49_4_2_1
+QP Edges : 61 %
+LP Edges : 38 %
+Total Execution Runtime : 0.411 Seconds
+Plotting BCD Graphs...
+# -------------------- START --------------------- #
+Graph > 
+Nodes : 49
+Edges : 234
+Density : 0.2
+QP Edges : 61.54 %
+LP Edges : 38.46 %
+# ---------------------- #
+Iteration : 1
+ Total BCD Iteration : 16
+ BCD Runtime : 0.023433
+ Continuous Objective : 10858.538907
+ Integer Objective : 7840.000000
+ Iteration Runtime : 0.024750
+ Total Runtime : 0.024750
+# ---------------------- #
+Iteration : 2
+ Total BCD Iteration : 17
+ BCD Runtime : 0.025539
+ Continuous Objective : 10319.815547
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.026765
+ Total Runtime : 0.051515
+# ---------------------- #
+Iteration : 3
+ Total BCD Iteration : 14
+ BCD Runtime : 0.021915
+ Continuous Objective : 9999.353728
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.023070
+ Total Runtime : 0.074585
+# ---------------------- #
+Iteration : 4
+ Total BCD Iteration : 15
+ BCD Runtime : 0.023142
+ Continuous Objective : 9785.202249
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.024375
+ Total Runtime : 0.098960
+# ---------------------- #
+Iteration : 5
+ Total BCD Iteration : 15
+ BCD Runtime : 0.023612
+ Continuous Objective : 9630.731522
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.024783
+ Total Runtime : 0.123743
+# ---------------------- #
+Iteration : 6
+ Total BCD Iteration : 11
+ BCD Runtime : 0.017755
+ Continuous Objective : 9512.461691
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.019122
+ Total Runtime : 0.142865
+# ---------------------- #
+Iteration : 7
+ Total BCD Iteration : 9
+ BCD Runtime : 0.015038
+ Continuous Objective : 9416.751462
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.016150
+ Total Runtime : 0.159015
+# ---------------------- #
+Iteration : 8
+ Total BCD Iteration : 10
+ BCD Runtime : 0.015646
+ Continuous Objective : 9336.133993
+ Integer Objective : 7840.000000
+ Iteration Runtime : 0.016762
+ Total Runtime : 0.175777
+# ---------------------- #
+Iteration : 9
+ Total BCD Iteration : 16
+ BCD Runtime : 0.024986
+ Continuous Objective : 9265.929520
+ Integer Objective : 7837.000000
+ Iteration Runtime : 0.026239
+ Total Runtime : 0.202016
+# ---------------------- #
+Iteration : 10
+ Total BCD Iteration : 22
+ BCD Runtime : 0.033047
+ Continuous Objective : 9203.387116
+ Integer Objective : 7754.000000
+ Iteration Runtime : 0.034447
+ Total Runtime : 0.236463
+# ================== Final Result ===================== #
+Total Outer Iteration : 10
+Continuous Objective : 9203.387116
+Integer Objective : 7754.000000
+Total Execution Time in C : 0.236884 Seconds
+
+Instance : 49_4_2_1
+QP Edges : 61 %
+LP Edges : 38 %
+Total Execution Runtime : 0.547 Seconds
+# --------------------- END ---------------------- #
+# -------------------- START --------------------- #
+Graph > 
+Nodes : 49
+Edges : 234
+Density : 0.2
+QP Edges : 61.54 %
+LP Edges : 38.46 %
+# ---------------------- #
+Iteration : 1
+ Total BCD Iteration : 16
+ BCD Runtime : 0.023473
+ Continuous Objective : 10858.538907
+ Integer Objective : 7840.000000
+ Iteration Runtime : 0.024818
+ Total Runtime : 0.024818
+# ---------------------- #
+Iteration : 2
+ Total BCD Iteration : 17
+ BCD Runtime : 0.026447
+ Continuous Objective : 10319.815547
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.027607
+ Total Runtime : 0.052425
+# ---------------------- #
+Iteration : 3
+ Total BCD Iteration : 14
+ BCD Runtime : 0.022126
+ Continuous Objective : 9999.353728
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.023434
+ Total Runtime : 0.075859
+# ---------------------- #
+Iteration : 4
+ Total BCD Iteration : 15
+ BCD Runtime : 0.023606
+ Continuous Objective : 9785.202249
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.024967
+ Total Runtime : 0.100826
+# ---------------------- #
+Iteration : 5
+ Total BCD Iteration : 15
+ BCD Runtime : 0.023467
+ Continuous Objective : 9630.731522
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.024759
+ Total Runtime : 0.125585
+# ---------------------- #
+Iteration : 6
+ Total BCD Iteration : 11
+ BCD Runtime : 0.018026
+ Continuous Objective : 9512.461691
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.019388
+ Total Runtime : 0.144973
+# ---------------------- #
+Iteration : 7
+ Total BCD Iteration : 9
+ BCD Runtime : 0.015305
+ Continuous Objective : 9416.751462
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.016475
+ Total Runtime : 0.161448
+# ---------------------- #
+Iteration : 8
+ Total BCD Iteration : 10
+ BCD Runtime : 0.016208
+ Continuous Objective : 9336.133993
+ Integer Objective : 7840.000000
+ Iteration Runtime : 0.017546
+ Total Runtime : 0.178994
+# ---------------------- #
+Iteration : 9
+ Total BCD Iteration : 16
+ BCD Runtime : 0.024877
+ Continuous Objective : 9265.929520
+ Integer Objective : 7837.000000
+ Iteration Runtime : 0.026022
+ Total Runtime : 0.205016
+# ---------------------- #
+Iteration : 10
+ Total BCD Iteration : 22
+ BCD Runtime : 0.033817
+ Continuous Objective : 9203.387116
+ Integer Objective : 7754.000000
+ Iteration Runtime : 0.035091
+ Total Runtime : 0.240107
+# ================== Final Result ===================== #
+Total Outer Iteration : 10
+Continuous Objective : 9203.387116
+Integer Objective : 7754.000000
+Total Execution Time in C : 0.240544 Seconds
+
+Instance : 49_4_2_1
+QP Edges : 61 %
+LP Edges : 38 %
+Total Execution Runtime : 0.553 Seconds
+# --------------------- END ---------------------- #
+# -------------------- START --------------------- #
+Graph > 
+Nodes : 49
+Edges : 234
+Density : 0.2
+QP Edges : 61.54 %
+LP Edges : 38.46 %
+# ---------------------- #
+Iteration : 1
+ Total BCD Iteration : 16
+ BCD Runtime : 0.022378
+ Continuous Objective : 10858.538907
+ Integer Objective : 7840.000000
+ Iteration Runtime : 0.023859
+ Total Runtime : 0.023859
+# ---------------------- #
+Iteration : 2
+ Total BCD Iteration : 17
+ BCD Runtime : 0.025830
+ Continuous Objective : 10319.815547
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.027113
+ Total Runtime : 0.050972
+# ---------------------- #
+Iteration : 3
+ Total BCD Iteration : 14
+ BCD Runtime : 0.021136
+ Continuous Objective : 9999.353728
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.022322
+ Total Runtime : 0.073294
+# ---------------------- #
+Iteration : 4
+ Total BCD Iteration : 15
+ BCD Runtime : 0.022815
+ Continuous Objective : 9785.202249
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.023973
+ Total Runtime : 0.097267
+# ---------------------- #
+Iteration : 5
+ Total BCD Iteration : 15
+ BCD Runtime : 0.022085
+ Continuous Objective : 9630.731522
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.023324
+ Total Runtime : 0.120591
+# ---------------------- #
+Iteration : 6
+ Total BCD Iteration : 11
+ BCD Runtime : 0.016973
+ Continuous Objective : 9512.461691
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.018221
+ Total Runtime : 0.138812
+# ---------------------- #
+Iteration : 7
+ Total BCD Iteration : 9
+ BCD Runtime : 0.015009
+ Continuous Objective : 9416.751462
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.016140
+ Total Runtime : 0.154952
+# ---------------------- #
+Iteration : 8
+ Total BCD Iteration : 10
+ BCD Runtime : 0.015244
+ Continuous Objective : 9336.133993
+ Integer Objective : 7840.000000
+ Iteration Runtime : 0.016423
+ Total Runtime : 0.171375
+# ---------------------- #
+Iteration : 9
+ Total BCD Iteration : 16
+ BCD Runtime : 0.024040
+ Continuous Objective : 9265.929520
+ Integer Objective : 7837.000000
+ Iteration Runtime : 0.025192
+ Total Runtime : 0.196567
+# ---------------------- #
+Iteration : 10
+ Total BCD Iteration : 22
+ BCD Runtime : 0.032739
+ Continuous Objective : 9203.387116
+ Integer Objective : 7754.000000
+ Iteration Runtime : 0.034006
+ Total Runtime : 0.230573
+# ================== Final Result ===================== #
+Total Outer Iteration : 10
+Continuous Objective : 9203.387116
+Integer Objective : 7754.000000
+Total Execution Time in C : 0.231031 Seconds
+
+Instance : 49_4_2_1
+QP Edges : 61 %
+LP Edges : 38 %
+Total Execution Runtime : 0.52 Seconds
+# --------------------- END ---------------------- #
+# -------------------- START --------------------- #
+Graph > 
+Nodes : 49
+Edges : 234
+Density : 0.2
+QP Edges : 61.54 %
+LP Edges : 38.46 %
+# ---------------------- #
+Iteration : 1
+ Total BCD Iteration : 16
+ BCD Runtime : 0.022261
+ Continuous Objective : 10858.538907
+ Integer Objective : 7840.000000
+ Iteration Runtime : 0.023606
+ Total Runtime : 0.023606
+# ---------------------- #
+Iteration : 2
+ Total BCD Iteration : 17
+ BCD Runtime : 0.025338
+ Continuous Objective : 10319.815547
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.026521
+ Total Runtime : 0.050127
+# ---------------------- #
+Iteration : 3
+ Total BCD Iteration : 14
+ BCD Runtime : 0.021688
+ Continuous Objective : 9999.353728
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.022820
+ Total Runtime : 0.072947
+# ---------------------- #
+Iteration : 4
+ Total BCD Iteration : 15
+ BCD Runtime : 0.021905
+ Continuous Objective : 9785.202249
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.023090
+ Total Runtime : 0.096037
+# ---------------------- #
+Iteration : 5
+ Total BCD Iteration : 15
+ BCD Runtime : 0.022267
+ Continuous Objective : 9630.731522
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.023452
+ Total Runtime : 0.119489
+# ---------------------- #
+Iteration : 6
+ Total BCD Iteration : 11
+ BCD Runtime : 0.017686
+ Continuous Objective : 9512.461691
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.018868
+ Total Runtime : 0.138357
+# ---------------------- #
+Iteration : 7
+ Total BCD Iteration : 9
+ BCD Runtime : 0.013650
+ Continuous Objective : 9416.751462
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.015039
+ Total Runtime : 0.153396
+# ---------------------- #
+Iteration : 8
+ Total BCD Iteration : 10
+ BCD Runtime : 0.015494
+ Continuous Objective : 9336.133993
+ Integer Objective : 7840.000000
+ Iteration Runtime : 0.016926
+ Total Runtime : 0.170322
+# ---------------------- #
+Iteration : 9
+ Total BCD Iteration : 16
+ BCD Runtime : 0.023688
+ Continuous Objective : 9265.929520
+ Integer Objective : 7837.000000
+ Iteration Runtime : 0.024949
+ Total Runtime : 0.195271
+# ---------------------- #
+Iteration : 10
+ Total BCD Iteration : 22
+ BCD Runtime : 0.032329
+ Continuous Objective : 9203.387116
+ Integer Objective : 7754.000000
+ Iteration Runtime : 0.033468
+ Total Runtime : 0.228739
+# ================== Final Result ===================== #
+Total Outer Iteration : 10
+Continuous Objective : 9203.387116
+Integer Objective : 7754.000000
+Total Execution Time in C : 0.229144 Seconds
+
+Instance : 49_4_2_1
+QP Edges : 61 %
+LP Edges : 38 %
+Total Execution Runtime : 0.514 Seconds
+# --------------------- END ---------------------- #
+# -------------------- START --------------------- #
+Graph > 
+Nodes : 49
+Edges : 234
+Density : 0.2
+QP Edges : 61.54 %
+LP Edges : 38.46 %
+# ---------------------- #
+Iteration : 1
+ Total BCD Iteration : 16
+ BCD Runtime : 0.022677
+ Continuous Objective : 10858.538907
+ Integer Objective : 7840.000000
+ Iteration Runtime : 0.024006
+ Total Runtime : 0.024006
+# ---------------------- #
+Iteration : 2
+ Total BCD Iteration : 17
+ BCD Runtime : 0.026948
+ Continuous Objective : 10319.815547
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.028363
+ Total Runtime : 0.052369
+# ---------------------- #
+Iteration : 3
+ Total BCD Iteration : 14
+ BCD Runtime : 0.021113
+ Continuous Objective : 9999.353728
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.022224
+ Total Runtime : 0.074593
+# ---------------------- #
+Iteration : 4
+ Total BCD Iteration : 15
+ BCD Runtime : 0.022180
+ Continuous Objective : 9785.202249
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.023338
+ Total Runtime : 0.097931
+# ---------------------- #
+Iteration : 5
+ Total BCD Iteration : 15
+ BCD Runtime : 0.022288
+ Continuous Objective : 9630.731522
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.023488
+ Total Runtime : 0.121419
+# ---------------------- #
+Iteration : 6
+ Total BCD Iteration : 11
+ BCD Runtime : 0.017533
+ Continuous Objective : 9512.461691
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.018668
+ Total Runtime : 0.140087
+# ---------------------- #
+Iteration : 7
+ Total BCD Iteration : 9
+ BCD Runtime : 0.014174
+ Continuous Objective : 9416.751462
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.015509
+ Total Runtime : 0.155596
+# ---------------------- #
+Iteration : 8
+ Total BCD Iteration : 10
+ BCD Runtime : 0.015702
+ Continuous Objective : 9336.133993
+ Integer Objective : 7840.000000
+ Iteration Runtime : 0.016862
+ Total Runtime : 0.172458
+# ---------------------- #
+Iteration : 9
+ Total BCD Iteration : 16
+ BCD Runtime : 0.024211
+ Continuous Objective : 9265.929520
+ Integer Objective : 7837.000000
+ Iteration Runtime : 0.025301
+ Total Runtime : 0.197759
+# ---------------------- #
+Iteration : 10
+ Total BCD Iteration : 22
+ BCD Runtime : 0.032727
+ Continuous Objective : 9203.387116
+ Integer Objective : 7754.000000
+ Iteration Runtime : 0.033907
+ Total Runtime : 0.231666
+# ================== Final Result ===================== #
+Total Outer Iteration : 10
+Continuous Objective : 9203.387116
+Integer Objective : 7754.000000
+Total Execution Time in C : 0.232068 Seconds
+
+Instance : 49_4_2_1
+QP Edges : 61 %
+LP Edges : 38 %
+Total Execution Runtime : 0.528 Seconds
+# --------------------- END ---------------------- #
+# -------------------- START --------------------- #
+Graph > 
+Nodes : 49
+Edges : 234
+Density : 0.2
+QP Edges : 61.54 %
+LP Edges : 38.46 %
+# ---------------------- #
+Iteration : 1
+ Total BCD Iteration : 16
+ BCD Runtime : 0.022812
+ Continuous Objective : 10858.538907
+ Integer Objective : 7840.000000
+ Iteration Runtime : 0.024030
+ Total Runtime : 0.024030
+# ---------------------- #
+Iteration : 2
+ Total BCD Iteration : 17
+ BCD Runtime : 0.026084
+ Continuous Objective : 10319.815547
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.027260
+ Total Runtime : 0.051290
+# ---------------------- #
+Iteration : 3
+ Total BCD Iteration : 14
+ BCD Runtime : 0.022735
+ Continuous Objective : 9999.353728
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.023921
+ Total Runtime : 0.075211
+# ---------------------- #
+Iteration : 4
+ Total BCD Iteration : 15
+ BCD Runtime : 0.023245
+ Continuous Objective : 9785.202249
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.024445
+ Total Runtime : 0.099656
+# ---------------------- #
+Iteration : 5
+ Total BCD Iteration : 15
+ BCD Runtime : 0.021942
+ Continuous Objective : 9630.731522
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.023105
+ Total Runtime : 0.122761
+# ---------------------- #
+Iteration : 6
+ Total BCD Iteration : 11
+ BCD Runtime : 0.017336
+ Continuous Objective : 9512.461691
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.018669
+ Total Runtime : 0.141430
+# ---------------------- #
+Iteration : 7
+ Total BCD Iteration : 9
+ BCD Runtime : 0.014008
+ Continuous Objective : 9416.751462
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.015248
+ Total Runtime : 0.156678
+# ---------------------- #
+Iteration : 8
+ Total BCD Iteration : 10
+ BCD Runtime : 0.015403
+ Continuous Objective : 9336.133993
+ Integer Objective : 7840.000000
+ Iteration Runtime : 0.016734
+ Total Runtime : 0.173412
+# ---------------------- #
+Iteration : 9
+ Total BCD Iteration : 16
+ BCD Runtime : 0.023931
+ Continuous Objective : 9265.929520
+ Integer Objective : 7837.000000
+ Iteration Runtime : 0.025150
+ Total Runtime : 0.198562
+# ---------------------- #
+Iteration : 10
+ Total BCD Iteration : 22
+ BCD Runtime : 0.033312
+ Continuous Objective : 9203.387116
+ Integer Objective : 7754.000000
+ Iteration Runtime : 0.034515
+ Total Runtime : 0.233077
+# ================== Final Result ===================== #
+Total Outer Iteration : 10
+Continuous Objective : 9203.387116
+Integer Objective : 7754.000000
+Total Execution Time in C : 0.233500 Seconds
+
+Instance : 49_4_2_1
+QP Edges : 61 %
+LP Edges : 38 %
+Total Execution Runtime : 0.527 Seconds
+# --------------------- END ---------------------- #
+# -------------------- START --------------------- #
+Graph > 
+Nodes : 49
+Edges : 234
+Density : 0.2
+QP Edges : 61.54 %
+LP Edges : 38.46 %
+# ---------------------- #
+Iteration : 1
+ Total BCD Iteration : 16
+ BCD Runtime : 0.023366
+ Continuous Objective : 10858.538907
+ Integer Objective : 7840.000000
+ Iteration Runtime : 0.024896
+ Total Runtime : 0.024896
+# ---------------------- #
+Iteration : 2
+ Total BCD Iteration : 17
+ BCD Runtime : 0.025337
+ Continuous Objective : 10319.815547
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.026543
+ Total Runtime : 0.051439
+# ---------------------- #
+Iteration : 3
+ Total BCD Iteration : 14
+ BCD Runtime : 0.021781
+ Continuous Objective : 9999.353728
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.022961
+ Total Runtime : 0.074400
+# ---------------------- #
+Iteration : 4
+ Total BCD Iteration : 15
+ BCD Runtime : 0.022877
+ Continuous Objective : 9785.202249
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.024110
+ Total Runtime : 0.098510
+# ---------------------- #
+Iteration : 5
+ Total BCD Iteration : 15
+ BCD Runtime : 0.023241
+ Continuous Objective : 9630.731522
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.024387
+ Total Runtime : 0.122897
+# ---------------------- #
+Iteration : 6
+ Total BCD Iteration : 11
+ BCD Runtime : 0.017367
+ Continuous Objective : 9512.461691
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.018480
+ Total Runtime : 0.141377
+# ---------------------- #
+Iteration : 7
+ Total BCD Iteration : 9
+ BCD Runtime : 0.014816
+ Continuous Objective : 9416.751462
+ Integer Objective : 7827.000000
+ Iteration Runtime : 0.016043
+ Total Runtime : 0.157420
+# ---------------------- #
+Iteration : 8
+ Total BCD Iteration : 10
+ BCD Runtime : 0.015605
+ Continuous Objective : 9336.133993
+ Integer Objective : 7840.000000
+ Iteration Runtime : 0.016709
+ Total Runtime : 0.174129
+# ---------------------- #
+Iteration : 9
+ Total BCD Iteration : 16
+ BCD Runtime : 0.024349
+ Continuous Objective : 9265.929520
+ Integer Objective : 7837.000000
+ Iteration Runtime : 0.025602
+ Total Runtime : 0.199731
+# ---------------------- #
+Iteration : 10
+ Total BCD Iteration : 22
+ BCD Runtime : 0.034878
+ Continuous Objective : 9203.387116
+ Integer Objective : 7754.000000
+ Iteration Runtime : 0.036151
+ Total Runtime : 0.235882
+# ================== Final Result ===================== #
+Total Outer Iteration : 10
+Continuous Objective : 9203.387116
+Integer Objective : 7754.000000
+Total Execution Time in C : 0.236255 Seconds
+
+Instance : 49_4_2_1
+QP Edges : 61 %
+LP Edges : 38 %
+Total Execution Runtime : 0.537 Seconds
+# --------------------- END ---------------------- #
