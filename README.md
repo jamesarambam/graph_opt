@@ -8,6 +8,7 @@ This repository implementations paper, Graph Based Optimization For Multiagent C
 
 1. Python 2.7
 2. GNU Scientific Library (GSL) - 2.3
+3. Frodo (https://frodo-ai.tech/)
 
 
 
@@ -19,7 +20,7 @@ Create a folder name "gsl" in your home directory
 $mkdir gsl
 ```
 
-Download GSL-2.3 package from ftp://ftp.gnu.org/gnu/gsl
+Download GSL-2.3 package from (ftp://ftp.gnu.org/gnu/gsl)
 
 ```
 $tar -zxvf gsl-2.3.tar.gz
